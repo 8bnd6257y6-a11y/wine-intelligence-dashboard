@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="8.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#722F37"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .n  { fill: #FFFFFF; stroke: #722F37; stroke-width: 2; }
+    .nd { fill: #722F37; }
+    .a  { fill: #F3E7E8; stroke: #B08A8E; stroke-width: 1.5; }
+    .t1 { font-size: 25px; font-weight: bold; fill: #3A2626; text-anchor: middle; }
+    .t2 { font-size: 21px; fill: #5C4646; text-anchor: middle; }
+    .w1 { font-size: 26px; font-weight: bold; fill: #FFFFFF; text-anchor: middle; }
+    .w2 { font-size: 22px; fill: #F3E3E4; text-anchor: middle; }
+    .w3 { font-size: 20px; fill: #E8CDD0; text-anchor: middle; }
+    .a1 { font-size: 24px; font-weight: bold; fill: #3A2626; text-anchor: middle; }
+    .a2 { font-size: 19px; fill: #5C4646; text-anchor: middle; }
+    .conn { stroke: #B08A8E; stroke-width: 1.6; stroke-dasharray: 6 5; fill: none; }
+    .arrow { stroke: #722F37; stroke-width: 2.5; marker-end: url(#arrow); }
+  </style>
+
+  <rect width="1600" height="900" fill="#FAF6F4"/>
+  <text x="60" y="86" font-size="40" font-weight="bold" fill="#3A2626">Wine Intelligence — pipeline quotidiana</text>
+  <text x="60" y="128" font-size="23" fill="#8A6F6F">Agente di business intelligence sul vino: ricerca automatica, report, serie storica KPI e annuncio di sintesi</text>
+
+  <!-- flusso principale -->
+  <rect class="nd" x="60" y="290" width="240" height="150" rx="16"/>
+  <text class="w1" x="180" y="342">Trigger</text>
+  <text class="w2" x="180" y="378">Cron 08:00</text>
+  <text class="w3" x="180" y="406">Europe/Rome</text>
+
+  <rect class="n" x="370" y="290" width="240" height="150" rx="16"/>
+  <text class="t1" x="490" y="342">Sessione isolata</text>
+  <text class="t2" x="490" y="375">agente dedicato con</text>
+  <text class="t2" x="490" y="403">le istruzioni del giorno</text>
+
+  <rect class="n" x="680" y="290" width="240" height="150" rx="16"/>
+  <text class="t1" x="800" y="342">Ricerca web</text>
+  <text class="t2" x="800" y="375">min. 2 query per area,</text>
+  <text class="t2" x="800" y="403">italiano + inglese</text>
+
+  <rect class="n" x="990" y="290" width="240" height="150" rx="16"/>
+  <text class="t1" x="1110" y="342">Report del giorno</text>
+  <text class="t2" x="1110" y="375">+ append serie KPI</text>
+  <text class="t2" x="1110" y="403">(Markdown + CSV)</text>
+
+  <rect class="n" x="1300" y="290" width="240" height="150" rx="16"/>
+  <text class="t1" x="1420" y="342">Annuncio sintesi</text>
+  <text class="t2" x="1420" y="375">3 punti chiave</text>
+  <text class="t2" x="1420" y="403">+ link al report</text>
+
+  <line class="arrow" x1="306" y1="365" x2="362" y2="365"/>
+  <line class="arrow" x1="616" y1="365" x2="672" y2="365"/>
+  <line class="arrow" x1="926" y1="365" x2="982" y2="365"/>
+  <line class="arrow" x1="1236" y1="365" x2="1292" y2="365"/>
+
+  <!-- connettore verso le aree -->
+  <line class="conn" x1="800" y1="444" x2="800" y2="560"/>
+  <line class="conn" x1="250" y1="560" x2="1390" y2="560"/>
+  <line class="conn" x1="250" y1="560" x2="250" y2="626"/>
+  <line class="conn" x1="630" y1="560" x2="630" y2="626"/>
+  <line class="conn" x1="1010" y1="560" x2="1010" y2="626"/>
+  <line class="conn" x1="1390" y1="560" x2="1390" y2="626"/>
+  <text x="800" y="592" font-size="20" fill="#8A6F6F" text-anchor="middle">Le 4 aree di ricerca</text>
+
+  <!-- aree -->
+  <rect class="a" x="90" y="630" width="320" height="140" rx="12"/>
+  <text class="a1" x="250" y="672">Statistiche di settore</text>
+  <text class="a2" x="250" y="704">OIV · Istat · UIV · Eurostat</text>
+  <text class="a2" x="250" y="732">produzione · consumo · prezzi</text>
+
+  <rect class="a" x="470" y="630" width="320" height="140" rx="12"/>
+  <text class="a1" x="630" y="672">Notizie (7 giorni)</text>
+  <text class="a2" x="630" y="704">WineNews · Decanter · Vitisphere</text>
+  <text class="a2" x="630" y="732">mercato · regole UE · clima</text>
+
+  <rect class="a" x="850" y="630" width="320" height="140" rx="12"/>
+  <text class="a1" x="1010" y="672">Ricerca scientifica</text>
+  <text class="a2" x="1010" y="704">OENO One · AJEV · PubMed</text>
+  <text class="a2" x="1010" y="732">vitivinicoltura · fermenti</text>
+
+  <rect class="a" x="1230" y="630" width="320" height="140" rx="12"/>
+  <text class="a1" x="1390" y="672">Innovazioni</text>
+  <text class="a2" x="1390" y="704">agritech 4.0 · AI · droni</text>
+  <text class="a2" x="1390" y="732">sostenibilità · e-commerce</text>
+
+  <!-- footer -->
+  <text x="800" y="852" font-size="21" font-style="italic" fill="#6B5555" text-anchor="middle">Artefatti di ogni giornata:  wine-bi/reports/YYYY-MM-DD.md  ·  wine-bi/data/kpi-log.csv  ·  annuncio di sintesi nel canale</text>
+</svg>
