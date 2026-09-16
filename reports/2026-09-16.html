@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Insights — Report del 16 settembre 2026</title>
+<meta name="description" content="Report Wine Insights del 16 settembre 2026: statistiche, notizie, ricerca e innovazioni sul vino.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#FAF6F4;color:#2E2222;line-height:1.6}
+a{color:#722F37}
+.topbar{position:sticky;top:0;background:rgba(250,246,244,.96);backdrop-filter:blur(6px);border-bottom:1px solid #E8DBD9;z-index:10}
+.topbar .in{max-width:1060px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:13px 24px;flex-wrap:wrap}
+.brand{font-weight:800;color:#722F37;font-size:18px;text-decoration:none;letter-spacing:.2px}
+.brand span{color:#2E2222;font-weight:600}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#5C4646;text-decoration:none;font-size:14px}
+nav a:hover{color:#722F37}
+.hero{background:linear-gradient(135deg,#4A1F24,#722F37);color:#fff;padding:60px 24px}
+.hero .in{max-width:1060px;margin:0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:.4px}
+.hero h1{font-size:44px;margin:18px 0 10px;line-height:1.15}
+.byline{color:#E8CDD0;font-size:16.5px;margin-top:4px}
+.byline .author{color:#fff;font-weight:600}
+.linkedin{margin-top:10px;font-size:14.5px}
+.linkedin a{color:#F3E3E4;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 16px;display:inline-block}
+.linkedin a:hover{background:rgba(255,255,255,.12)}
+.growine{margin-top:12px;font-size:15px;color:#E8CDD0;display:flex;align-items:center;gap:10px}
+.growine-logo{height:26px;width:auto;display:block}
+.growine-link{display:inline-flex;align-items:center}
+.growine-link:hover{opacity:.82}
+.notice{background:rgba(255,214,102,.16);border:1px solid rgba(255,214,102,.55);color:#FFE9B0;padding:9px 16px;border-radius:10px;display:inline-block;margin-top:12px;font-size:14px}
+.hero p{color:#F3E3E4;font-size:18px;max-width:680px}
+.hero .meta{color:#E8CDD0;font-size:14.5px;margin-top:14px}
+.hero-logo{display:block;width:430px;max-width:100%;height:auto;margin:14px 0 4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+main{max-width:1060px;margin:0 auto;padding:40px 24px 64px}
+section{margin-bottom:56px;scroll-margin-top:76px}
+.overline{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+h2.sec{font-size:30px;color:#3A2626;margin:6px 0 18px}
+.card{background:#fff;border:1px solid #E8DBD9;border-radius:16px;padding:28px}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:#F3E7E8;color:#4A1F24;text-align:left;padding:10px 12px;border-bottom:2px solid #B08A8E;font-size:12.5px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:9px 12px;border-bottom:1px solid #EFE5E3;vertical-align:top}
+tbody tr:hover td{background:#FBF4F2}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.rcard{background:#fff;border:1px solid #E8DBD9;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.rcard .date{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+.rcard ul{margin-left:18px;font-size:14px;color:#5C4646}
+.rcard li{margin:4px 0}
+.rcard a.more{font-size:14px;font-weight:700;text-decoration:none;color:#722F37;margin-top:auto}
+.rcard a.more:hover{text-decoration:underline}
+.howto{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+.howto img{width:100%;border:1px solid #E8DBD9;border-radius:14px;background:#fff}
+.howto ul{margin:12px 0 0 20px;font-size:15px;color:#5C4646}
+.howto li{margin:6px 0}
+.note{font-size:13.5px;color:#8A6F6F;margin-top:12px}
+article h1{font-size:34px;color:#3A2626;margin:8px 0 6px}
+article h2{font-size:24px;color:#722F37;border-left:4px solid #722F37;padding-left:12px;margin:34px 0 14px}
+article h3{font-size:19px;margin:22px 0 10px;color:#3A2626}
+article p{margin:10px 0}
+article ul{margin:10px 0 10px 22px}
+article li{margin:6px 0}
+article blockquote{background:#F3E7E8;border-left:4px solid #B08A8E;padding:12px 16px;border-radius:0 10px 10px 0;color:#5C4646;margin:14px 0;font-size:15px}
+article hr{border:none;border-top:1px solid #E8DBD9;margin:26px 0}
+article code{background:#F3E7E8;border-radius:6px;padding:1px 6px;font-size:.9em}
+article pre{background:#3A2626;color:#F3E3E4;border-radius:12px;padding:16px;overflow-x:auto;margin:14px 0}
+article pre code{background:none;color:inherit}
+.meta{color:#8A6F6F;font-size:13.5px}
+.crumb{font-size:14px;margin-bottom:18px}
+.crumb a{text-decoration:none;font-weight:700}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:36px;flex-wrap:wrap}
+.pager a{font-weight:700;text-decoration:none;color:#722F37;font-size:14.5px}
+.views{font-size:14px;font-weight:600;color:#4A1F24;background:#F3E7E8;border:1px solid #E4D2D3;border-radius:10px;padding:8px 14px;display:inline-block;margin-bottom:12px}
+footer{border-top:1px solid #E8DBD9;padding:26px 24px;color:#8A6F6F;font-size:13.5px}
+footer .in{max-width:1060px;margin:0 auto}
+@media(max-width:820px){.howto{grid-template-columns:1fr}.hero h1{font-size:34px}}
+</style>
+</head>
+<body><div class="topbar"><div class="in"><a class="brand" href="../index.html">Wine <span>Insights</span></a><nav><a href="../index.html#analisi">Ultime analisi</a><a href="../index.html#indicatori">Indicatori</a><a href="../index.html#archivio">Archivio</a></nav></div></div><main><div class="crumb"><a href="../index.html">← Torna alla dashboard</a></div><div class="card article"><div class="meta">Report generato automaticamente il 16 settembre 2026 — dati da ricerche web, fonti originali in calce.</div><h1>Wine Insights — 16 settembre 2026</h1><blockquote>Rotazione geografica di oggi: <strong>Spagna</strong> (giorno del mese 16 mod 10 → indice 6), seconda area approfondita in base all'attualità: <strong>USA/California</strong> (vendemmia più precoce di una generazione, report Ciatti di settembre). Già trattati nei giorni scorsi e quindi non ripetuti: dazi UE-USA al 15% (9-14/9), giacenze Italia 42,6 mhl (9/9), National Vintage Report Australia (15/9), export australiani al minimo da 22 anni (15/9), arresto contraffazione UK e studi OENO One/UC Davis/JWE (15/9).</blockquote>
+<h2 id="sintesi-esecutiva">Sintesi esecutiva</h2>
+<ul>
+<li><strong>Spagna: export a minimo decennale nel primo semestre 2026</strong> — volumi <strong>-20,2%</strong> (il livello più basso da dieci anni), valore <strong>-10,2%</strong>; i prezzi record ammortizzano solo in parte la caduta.</li>
+<li><strong>Vendemmia spagnola senza stime ufficiali, ma molto precoce</strong> — Castilla-La Mancha rompe la tradizione e non pubblica il pronostico per prudenza meteo; le stime non ufficiali parlano di ~31,5 mhl (contro 33,1 del 2025, dato non confermato). Rioja chiude una "vendemmia centenaria" di qualità eccezionale (225,5 mln kg) e Rías Baixas fa il proprio record (49 mln kg).</li>
+<li><strong>Crisi Cava: prezzi dell'uva sotto i costi di produzione</strong> — i produttori pagano fino a 25 cent/kg contro costi stimati 53-56 cent/kg, con ~4.000 tonnellate di uva potenzialmente invenduta.</li>
+<li><strong>California: vendemmia la più precoce "di una generazione"</strong> — secondo Ciatti potrebbe essere completa all'80% entro fine settembre; rese più leggere spingono alcuni acquirenti a cercare uva sul mercato.</li>
+<li><strong>Ricerca del giorno</strong> — machine learning multi-temporale per la previsione della resa a Cádiz, strategie biologiche contro la peronospora e modello AI di vendemmia in Rioja con accuratezza del 96%.</li>
+</ul>
+<h2 id="statistiche-dati">Statistiche &amp; dati</h2>
+<div class="tablewrap"><table><thead><tr><th>Indicatore</th><th>Valore</th><th>Variazione / Nota</th><th>Fonte</th></tr></thead><tbody><tr><td>Export vino Spagna H1 2026 (volume)</td><td>-20,2%</td><td>minimo decennale</td><td><a href="https://wine-intelligence.com/blogs/wine-analytics-pricing-report-data/spanish-wine-exports-fall-sharply-in-h1-2026-but-rising-prices-cushion-the-blow" target="_blank" rel="noopener">Wine Intelligence</a></td></tr><tr><td>Export vino Spagna H1 2026 (valore)</td><td>-10,2%</td><td>prezzi record contengono la perdita</td><td><a href="https://wine-intelligence.com/blogs/wine-analytics-pricing-report-data/spanish-wine-exports-fall-sharply-in-h1-2026-but-rising-prices-cushion-the-blow" target="_blank" rel="noopener">Wine Intelligence</a></td></tr><tr><td>Vendemmia Rioja 2026 (uva raccolmata)</td><td>225,5 mln kg</td><td>191,7 mln rossi + 33,8 mln bianchi; qualità "eccezionale"</td><td><a href="https://riojawine.com/en-gb/news/rioja-is-wrapping-up-centennial-harvest-marked-by-exceptional-quality" target="_blank" rel="noopener">Riojawine</a></td></tr><tr><td>Vendemmia Rías Baixas 2026</td><td>49 mln kg</td><td>record storico della DO</td><td><a href="https://www.vinetur.com/it/amp/20260915107169/rias-baixas-breaks-its-harvest-record-with-49-million-kilos-of-grapes.html" target="_blank" rel="noopener">Vinetur</a></td></tr><tr><td>Stima vendemmia Spagna 2026</td><td>~31,5 mhl</td><td>dato non confermato (stime non ufficiali) vs 33,1 mhl 2025</td><td><a href="https://the-silent-luxury.com/european-wine-harvest-2026/" target="_blank" rel="noopener">The Silent Luxury</a></td></tr><tr><td>Export vino italiano in Canada H1 2026</td><td>208,6 mln €</td><td>+1,1% (dati doganali canadesi, Oive)</td><td><a href="https://winenews.it/it/post/mondo/" target="_blank" rel="noopener">WineNews</a></td></tr><tr><td>Prezzo uva Cava 2026 (minimo)</td><td>0,25 €/kg</td><td>sotto i costi di produzione (0,53-0,56 €/kg)</td><td><a href="https://www.wine-searcher.com/m/2026/08/cava-growers-enter-crisis-mode" target="_blank" rel="noopener">Wine-Searcher</a></td></tr></tbody></table></div>
+<h2 id="notizie">Notizie</h2>
+<ul>
+<li><strong>Spagna (area approfondita): export a minimo decennale</strong> — nel primo semestre 2026 le esportazioni di vino scendono del 20,2% a volume e del 10,2% a valore; i prezzi medi record (spinta del vino sfuso cara e della domanda di qualità) contengono la perdita di valore. (<a href="https://wine-intelligence.com/blogs/wine-analytics-pricing-report-data/spanish-wine-exports-fall-sharply-in-h1-2026-but-rising-prices-cushion-the-blow" target="_blank" rel="noopener">Wine Intelligence</a>, <a href="https://www.vinetur.com/en/20260904106624/spains-wine-sector-export-volume-hit-a-decade-low-in-the-first-half-of-2026.html" target="_blank" rel="noopener">Vinetur</a>)</li>
+<li><strong>Spagna: la vendemmia 2026 che non vuole stime</strong> — Castilla-La Mancha, la prima regione del Paese, rinuncia per la prima volta al pronostico anticipato per prudenza meteo ("alte temperature... optiamo per la prudenza"); la raccolta è comunque partita presto e veloce, con rese più basse ma alta qualità. Rioja chiude la "vendemmia centenaria" con qualità eccezionale e Rías Baixas tocca il proprio record (49 mln kg). (<a href="https://winenews.it/it/anche-in-spagna-niente-stime-sulla-vendemmia-2026-come-in-francia-e-in-italia_598604/" target="_blank" rel="noopener">WineNews</a>, <a href="https://www.vinetur.com/en/20260806105363/spains-biggest-wine-region-drops-its-2026-harvest-forecast.html" target="_blank" rel="noopener">Vinetur</a>, <a href="https://riojawine.com/en-gb/news/rioja-is-wrapping-up-its-centennial-harvest-marked-by-exceptional-quality/" target="_blank" rel="noopener">Riojawine</a>, <a href="https://insights.tridge.com/speaker-product-news-reports/KJLyFXpzJzgKuB1Gqsm5QUKHGgR43AVdqLVeubbB5nWFUfANMa5jBsZZ" target="_blank" rel="noopener">Tridge</a>)</li>
+<li><strong>Cava: i produttori di uva in modalità crisi</strong> — il crollo dei prezzi pagati ai viticoltori (fino a 25 cent/kg, sotto i 53-56 cent di costo) e ~4.000 tonnellate di uva potenzialmente invenduta riaccendono il dibattito sulla sostenibilità economica della DO. (<a href="https://www.wine-searcher.com/m/2026/08/cava-growers-enter-crisis-mode" target="_blank" rel="noopener">Wine-Searcher</a>, <a href="https://www.meininger.de/en/news/cava-slides-crisis" target="_blank" rel="noopener">Meininger's</a>)</li>
+<li><strong>USA (seconda area): California, vendemmia lampo</strong> — per Ciatti il raccolto 2026 sarà il più precoce di una generazione, con l'80% dell'uva potenzialmente vendemmiate entro fine settembre; rese più leggere hanno spinto alcuni acquirenti a cercare uva sul mercato a pochi mesi dalla fine. (<a href="https://www.vinetur.com/en/20260915107091/californias-2026-winegrape-harvest-could-be-80-complete-by-the-end-of-september.html" target="_blank" rel="noopener">Vinetur</a>, <a href="https://ciatticompany.substack.com/p/ciatti-california-report-august-2026" target="_blank" rel="noopener">Ciatti California Report</a>)</li>
+<li><strong>Italia: export in Canada resistente</strong> — nel primo semestre 2026 il vino italiano in Canada vale 208,6 mln € (+1,1%), segnale di tenuta su un mercato terzo nonostante il quadro mondiale fragile. (<a href="https://winenews.it/it/post/mondo/" target="_blank" rel="noopener">WineNews</a>)</li>
+<li><strong>Annata estrema in Alto Adige, Montello e Valpolicella</strong> — le cantine gestiscono raccolto anticipato e rese irregolari "con esperienza e scelte" in uno degli anni climaticamente più difficili degli ultimi tempi. (<a href="https://vinonews24.it/" target="_blank" rel="noopener">VinoNews24</a>)</li>
+</ul>
+<h2 id="ricerca-innovazione">Ricerca &amp; Innovazione</h2>
+<ul>
+<li><strong>Precision Agriculture: ML multi-temporale per la resa a Cádiz</strong> — Cubillas et al. (2026) costruiscono un framework predittivo della produzione per pianta in provincia di Cádiz (Spagna) combinando immagini multi-temporali e dati agronomici: un passo concreto verso la previsione di resa operativa in un anno in cui le stime ufficiali sono mancate. (<a href="https://link.springer.com/article/10.1007/s11119-026-10369-y" target="_blank" rel="noopener">Springer</a>)</li>
+<li><strong>Peronospora: strategie biologiche a confronto</strong> — Palmieri et al. (2026, *Agriculture*) sistematizzano le strategie di controllo biologico di *Plasmopara viticola*, il patogeno più impegnativo dei vigneti mondiali, nel quadro della riduzione dei fungicidi di sintesi. (<a href="https://www.mdpi.com/2077-0472/16/14/1491" target="_blank" rel="noopener">MDPI</a>)</li>
+<li><strong>Rioja: il modello AI della vendemmia al 96%</strong> — il modello predittivo basato su intelligenza artificiale della DOCa Rioja ha raggiunto il 96% di accuratezza nei vigneti con dati di campo dettagliati: la previsione di vendemmia diventa uno strumento di pianificazione in cantina. (<a href="https://www.vinetur.com/en/20260806105363/spains-biggest-wine-region-drops-its-2026-harvest-forecast.html" target="_blank" rel="noopener">Vinetur</a>)</li>
+<li><strong>California: scambio ionico per correggere il pH</strong> — un nuovo studio californiano mostra che lo scambio ionico produce la maggiore riduzione di pH nei rossi; la fermentazione malolattica bloccata, in alternativa, lascia 19% più tannini e 5% più polifenoli totali. (<a href="https://www.vinetur.com/en/20260826106178/california-study-finds-ion-exchange-delivers-the-biggest-ph-drop-in-red-wine.html" target="_blank" rel="noopener">Vinetur</a>)</li>
+<li><strong>Mercato: precision viticulture a 6,82 mld $</strong> — il mercato globale della viticoltura di precisione vale 6,82 mld $ nel 2026 e dovrebbe arrivare a 12,23 mld $ entro il 2034 (CAGR ~7,6%): sensori, droni e AI restano il segmento in più rapida crescita dell'agritech del vino. (<a href="https://www.fortunebusinessinsights.com/precision-viticulture-market-113916" target="_blank" rel="noopener">Fortune Business Insights</a>)</li>
+</ul>
+<h2 id="conoscenza-enologica-del-giorno">Conoscenza enologica del giorno</h2>
+<p><strong>Albariño: la viticoltura atlantica che non teme il freddo</strong></p>
+<p>L'Albariño è il vitigno bianco-simbolo della Galizia, coltivato soprattutto nella DO Rías Baixas, una delle zone viticole più atlantiche d'Europa: latitudine simile al Piemonte ma clima oceanico, con estati tiepide, umidità elevata e piogge che in altri contesti sarebbero ostili alla vite. Il suo segreto è l'adattamento: vegetazione vigorosa e fogliami espansi che massimizzano l'intercettazione della luce in condizioni di nebulosità frequente; peronospira permettendo (l'umidità è il suo principale rischio fitosanitario), il vitigno matura bene grazie a un lungo periodo di accumulo. Le rese sono naturalmente contenute — grappoli piccoli e spargolati — e questo contribuisce alla concentrazione aromatica: agrumi maturi, pesca bianca, fiori bianchi e una salinità amarognola che deriva anche dai suoli granitici-sabbiosi della zona. Il legame con l'attualità è doppio: Rías Baixas ha appena firmato il proprio record di vendemmia (49 mln kg), e nel mercato globale del bianco fresco l'Albariño è tra i pochi vitigni in crescita costante nei mercati anglosassoni, con prezzi medio-alti che contrastano la compressione della fascia entry-level. Una lezione di specializzazione: dove il clima rende difficile fare "vino da tutti", fare vino irripetibile.</p>
+<h2 id="fonti">Fonti</h2>
+<ul>
+<li><a href="https://wine-intelligence.com/blogs/wine-analytics-pricing-report-data/spanish-wine-exports-fall-sharply-in-h1-2026-but-rising-prices-cushion-the-blow" target="_blank" rel="noopener">Wine Intelligence — Spain's wine exports fall sharply in H1 2026, but rising prices cushion the blow</a></li>
+<li><a href="https://www.vinetur.com/en/20260904106624/spains-wine-sector-export-volume-hit-a-decade-low-in-the-first-half-of-2026.html" target="_blank" rel="noopener">Vinetur — Spain's wine-sector export volume hit a decade low in H1 2026</a></li>
+<li><a href="https://winenews.it/it/anche-in-spagna-niente-stime-sulla-vendemmia-2026-come-in-francia-e-in-italia_598604/" target="_blank" rel="noopener">WineNews — Anche in Spagna niente stime sulla vendemmia 2026</a></li>
+<li><a href="https://www.vinetur.com/en/20260806105363/spains-biggest-wine-region-drops-its-2026-harvest-forecast.html" target="_blank" rel="noopener">Vinetur — Spain's biggest wine region drops its 2026 harvest forecast</a></li>
+<li><a href="https://riojawine.com/en-gb/news/rioja-is-wrapping-up-its-centennial-harvest-marked-by-exceptional-quality/" target="_blank" rel="noopener">Riojawine — Rioja is wrapping up its "centennial" harvest, marked by exceptional quality</a></li>
+<li><a href="https://www.vinetur.com/it/amp/20260915107169/rias-baixas-breaks-its-harvest-record-with-49-million-kilos-of-grapes.html" target="_blank" rel="noopener">Vinetur — Rías Baixas infrange il record di vendemmia con 49 milioni di chili</a></li>
+<li><a href="https://insights.tridge.com/speaker-product-news-reports/KJLyFXpzJzgKuB1Gqsm5QUKHGgR43AVdqLVeubbB5nWFUfANMa5jBsZZ" target="_blank" rel="noopener">Tridge — Early and rapid 2026 grape harvest in La Mancha</a></li>
+<li><a href="https://www.wine-searcher.com/m/2026/08/cava-growers-enter-crisis-mode" target="_blank" rel="noopener">Wine-Searcher — Cava Growers Enter Crisis Mode</a></li>
+<li><a href="https://www.meininger.de/en/news/cava-slides-crisis" target="_blank" rel="noopener">Meininger's — Cava Slides into Crisis</a></li>
+<li><a href="https://www.vinetur.com/en/20260915107091/californias-2026-winegrape-harvest-could-be-80-complete-by-the-end-of-september.html" target="_blank" rel="noopener">Vinetur — California's 2026 winegrape harvest could be 80% complete by end of September</a></li>
+<li><a href="https://ciatticompany.substack.com/p/ciatti-california-report-august-2026" target="_blank" rel="noopener">Ciatti — California Report, agosto 2026</a></li>
+<li><a href="https://winenews.it/it/post/mondo/" target="_blank" rel="noopener">WineNews — Mondo: export vino italiano in Canada H1 2026</a></li>
+<li><a href="https://vinonews24.it/" target="_blank" rel="noopener">VinoNews24 — Vendemmia 2026 in Alto Adige, Montello e Valpolicella</a></li>
+<li><a href="https://the-silent-luxury.com/european-wine-harvest-2026/" target="_blank" rel="noopener">The Silent Luxury — European Wine Harvest 2026</a></li>
+<li><a href="https://link.springer.com/article/10.1007/s11119-026-10369-y" target="_blank" rel="noopener">Springer Precision Agriculture — Multi-temporal machine learning for grapevine yield prediction in Cádiz (Cubillas et al. 2026)</a></li>
+<li><a href="https://www.mdpi.com/2077-0472/16/14/1491" target="_blank" rel="noopener">MDPI Agriculture — Biological Strategies to Control Grapevine Downy Mildew (Palmieri et al. 2026)</a></li>
+<li><a href="https://www.vinetur.com/en/20260826106178/california-study-finds-ion-exchange-delivers-the-biggest-ph-drop-in-red-wine.html" target="_blank" rel="noopener">Vinetur — California Study Finds Ion Exchange Delivers the Biggest pH Drop in Red Wine</a></li>
+<li><a href="https://www.fortunebusinessinsights.com/precision-viticulture-market-113916" target="_blank" rel="noopener">Fortune Business Insights — Precision Viticulture Market</a></li>
+<li><a href="https://www.oiv.int/sites/default/files/2026-05/OIV-State_of_the_World_Wine_Sector_in_2025.pdf" target="_blank" rel="noopener">OIV — State of the World Wine Sector in 2025</a></li>
+<li><a href="https://italia-informa.com/vendemmia-2026-caldo-europa-vino.aspx" target="_blank" rel="noopener">italia-informa — Vendemmia 2026 anticipa per il caldo (Portogallo IVV 6,7 mhl +12%)</a></li>
+</ul></div><div class="pager"><span></span><a href="2026-09-15.html">Più vecchio (15 settembre 2026) →</a></div></main><footer><div class="in"><div class="views">Visualizzazioni totali: <span id="view-count">…</span></div><script>(function () {var el = document.getElementById("view-count");if (!el) return;var url = "https://abacus.jasoncameron.dev/hit/wine-insights-site/total";var done = false;function show(n, note) { el.textContent = Number(n).toLocaleString("it-IT") + (note ? " " + note : ""); }function fallback() { if (done) return; done = true; var loc = 0; try { loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10); } catch (e) {} show(loc, "(questo dispositivo)"); }try { var loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10) + 1; localStorage.setItem("wiLocalViews", String(loc)); } catch (e) {}try { var xhr = new XMLHttpRequest(); xhr.open("GET", url); xhr.responseType = "json";xhr.onload = function () { if (xhr.status === 200 && xhr.response && typeof xhr.response.value === "number") { done = true; show(xhr.response.value); } else { fallback(); } };xhr.onerror = fallback; xhr.send(); } catch (e) { fallback(); }try { fetch("https://get.geojs.io/v1/ip/geo.json").then(function (r) { return r.json(); }).then(function (g) {var cc = (g.country_code || "").toUpperCase();var list = ["IT","US","FR","DE","GB","CH","ES","PT","AT","BE","NL","LU","BR","AR","CL","MX","CA","AU","NZ","ZA","CN","JP","IN","KR"];var key = (cc && list.indexOf(cc) >= 0) ? "geo-" + cc : "geo-ALTRO";var x = new XMLHttpRequest(); x.open("GET", "https://abacus.jasoncameron.dev/hit/wine-insights-geo/" + key); x.send();}).catch(function () {}); } catch (e) {}})();</script>Made by <strong>Alberto Cugnetto PhD</strong> with <strong>AutoClaw</strong> · <a href="https://www.linkedin.com/in/alberto-cugnetto-ph-d-03aa3418/" target="_blank" rel="noopener">Profilo LinkedIn</a> · Piattaforma realizzata nel contesto del progetto <a href="https://growine.it/" target="_blank" rel="noopener"><strong>GROWINE</strong></a> <img src="../assets/logo-growine-white.png" alt="GROWINE — Wine Consulting" style="height:13px;vertical-align:middle;border:0"><br>Contenuti generati automaticamente da ricerche web (Wine Insights, OpenClaw). Verificare i dati numerici sulle fonti originali prima di usarli in decisioni commerciali o pubblicazioni.<br>Pagina rigenerata il 16 settembre 2026 alle ore 13:35 (Europe/Rome).</div></footer></body></html>
