@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Insights — Report del 19 settembre 2026</title>
+<meta name="description" content="Report Wine Insights del 19 settembre 2026: statistiche, notizie, ricerca e innovazioni sul vino.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#FAF6F4;color:#2E2222;line-height:1.6}
+a{color:#722F37}
+.topbar{position:sticky;top:0;background:rgba(250,246,244,.96);backdrop-filter:blur(6px);border-bottom:1px solid #E8DBD9;z-index:10}
+.topbar .in{max-width:1060px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:13px 24px;flex-wrap:wrap}
+.brand{font-weight:800;color:#722F37;font-size:18px;text-decoration:none;letter-spacing:.2px}
+.brand span{color:#2E2222;font-weight:600}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#5C4646;text-decoration:none;font-size:14px}
+nav a:hover{color:#722F37}
+.hero{background:linear-gradient(135deg,#4A1F24,#722F37);color:#fff;padding:60px 24px}
+.hero .in{max-width:1060px;margin:0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:.4px}
+.hero h1{font-size:44px;margin:18px 0 10px;line-height:1.15}
+.byline{color:#E8CDD0;font-size:16.5px;margin-top:4px}
+.byline .author{color:#fff;font-weight:600}
+.linkedin{margin-top:10px;font-size:14.5px}
+.linkedin a{color:#F3E3E4;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 16px;display:inline-block}
+.linkedin a:hover{background:rgba(255,255,255,.12)}
+.growine{margin-top:12px;font-size:15px;color:#E8CDD0;display:flex;align-items:center;gap:10px}
+.growine-logo{height:26px;width:auto;display:block}
+.growine-link{display:inline-flex;align-items:center}
+.growine-link:hover{opacity:.82}
+.notice{background:rgba(255,214,102,.16);border:1px solid rgba(255,214,102,.55);color:#FFE9B0;padding:9px 16px;border-radius:10px;display:inline-block;margin-top:12px;font-size:14px}
+.hero p{color:#F3E3E4;font-size:18px;max-width:680px}
+.hero .meta{color:#E8CDD0;font-size:14.5px;margin-top:14px}
+.hero-logo{display:block;width:430px;max-width:100%;height:auto;margin:14px 0 4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+main{max-width:1060px;margin:0 auto;padding:40px 24px 64px}
+section{margin-bottom:56px;scroll-margin-top:76px}
+.overline{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+h2.sec{font-size:30px;color:#3A2626;margin:6px 0 18px}
+.card{background:#fff;border:1px solid #E8DBD9;border-radius:16px;padding:28px}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:#F3E7E8;color:#4A1F24;text-align:left;padding:10px 12px;border-bottom:2px solid #B08A8E;font-size:12.5px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:9px 12px;border-bottom:1px solid #EFE5E3;vertical-align:top}
+tbody tr:hover td{background:#FBF4F2}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.rcard{background:#fff;border:1px solid #E8DBD9;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.rcard .date{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+.rcard ul{margin-left:18px;font-size:14px;color:#5C4646}
+.rcard li{margin:4px 0}
+.rcard a.more{font-size:14px;font-weight:700;text-decoration:none;color:#722F37;margin-top:auto}
+.rcard a.more:hover{text-decoration:underline}
+.howto{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+.howto img{width:100%;border:1px solid #E8DBD9;border-radius:14px;background:#fff}
+.howto ul{margin:12px 0 0 20px;font-size:15px;color:#5C4646}
+.howto li{margin:6px 0}
+.note{font-size:13.5px;color:#8A6F6F;margin-top:12px}
+article h1{font-size:34px;color:#3A2626;margin:8px 0 6px}
+article h2{font-size:24px;color:#722F37;border-left:4px solid #722F37;padding-left:12px;margin:34px 0 14px}
+article h3{font-size:19px;margin:22px 0 10px;color:#3A2626}
+article p{margin:10px 0}
+article ul{margin:10px 0 10px 22px}
+article li{margin:6px 0}
+article blockquote{background:#F3E7E8;border-left:4px solid #B08A8E;padding:12px 16px;border-radius:0 10px 10px 0;color:#5C4646;margin:14px 0;font-size:15px}
+article hr{border:none;border-top:1px solid #E8DBD9;margin:26px 0}
+article code{background:#F3E7E8;border-radius:6px;padding:1px 6px;font-size:.9em}
+article pre{background:#3A2626;color:#F3E3E4;border-radius:12px;padding:16px;overflow-x:auto;margin:14px 0}
+article pre code{background:none;color:inherit}
+.meta{color:#8A6F6F;font-size:13.5px}
+.crumb{font-size:14px;margin-bottom:18px}
+.crumb a{text-decoration:none;font-weight:700}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:36px;flex-wrap:wrap}
+.pager a{font-weight:700;text-decoration:none;color:#722F37;font-size:14.5px}
+.views{font-size:14px;font-weight:600;color:#4A1F24;background:#F3E7E8;border:1px solid #E4D2D3;border-radius:10px;padding:8px 14px;display:inline-block;margin-bottom:12px}
+footer{border-top:1px solid #E8DBD9;padding:26px 24px;color:#8A6F6F;font-size:13.5px}
+footer .in{max-width:1060px;margin:0 auto}
+@media(max-width:820px){.howto{grid-template-columns:1fr}.hero h1{font-size:34px}}
+</style>
+</head>
+<body><div class="topbar"><div class="in"><a class="brand" href="../index.html">Wine <span>Insights</span></a><nav><a href="../index.html#analisi">Ultime analisi</a><a href="../index.html#indicatori">Indicatori</a><a href="../index.html#archivio">Archivio</a></nav></div></div><main><div class="crumb"><a href="../index.html">← Torna alla dashboard</a></div><div class="card article"><div class="meta">Report generato automaticamente il 19 settembre 2026 — dati da ricerche web, fonti originali in calce.</div><h1>Wine Insights — 19 settembre 2026</h1><blockquote>Rotazione geografica di oggi: <strong>Germania</strong> (giorno del mese 19 mod 10 → indice 9), seconda area approfondita in base all'attualità: <strong>USA</strong> (crop report 2025 della Sonoma County e mercato della viticoltura di precisione). Già trattati nei giorni scorsi e quindi non ripetuti: dazi UE-USA al 15%, export italiano H1 2026 e rimbalzo luglio USA (18/9), vendemmia Portogallo +12% e Touriga Nacional (18/9), crisi Cava e vendemmia spagnola, National Vintage Report Australia.</blockquote>
+<h2 id="sintesi-esecutiva">Sintesi esecutiva</h2>
+<ul>
+<li><strong>Germania (area approfondita): la vendemmia più precoce di sempre</strong> — il DWI conferma un avvio nella seconda settimana di agosto, circa una settimana prima della media e senza precedenti storici; con maturazioni simultanee di quasi tutte le varietà la raccolta potrebbe chiudersi già a settembre, con uve sane ma rese contenute.</li>
+<li><strong>Il vino tedesco parte da una base fragile</strong> — dopo il 2025 la produzione è scesa a <strong>7,55 mhl (-2,6%)</strong> (Destatis) e le esportazioni di vino fermo si sono fermate a 1,203 mhl per 377 mln € (+1% volumi, <strong>-2% valore</strong>): un'annata qualitativa precoce è ossigeno in un mercato export che perde valore.</li>
+<li><strong>USA (seconda area): la Sonoma County affonda al quinto anno di calo</strong> — il crop report 2025 mostra un valore agricolo totale in calo di quasi il <strong>10%</strong>, trascinato da produzione e prezzi dell'uva da vino; la stima della raccolta winegrape 2025 è di circa <strong>523 mln $</strong> contro i 777 mln del 2018.</li>
+<li><strong>Vino contraffatto: arresto nel Regno Unito</strong> — un uomo è stato arrestato nell'ambito di un'indagine su <strong>55 bottiglie di vino sospetto contraffatto</strong> vendute a una vittima per oltre <strong>500.000 £</strong>: il collezionismo fine wine resta un bersaglio.</li>
+<li><strong>Ricerca del giorno</strong> — l'analisi AJEV sulle priorità di ricerca 2026 (enologia e viticoltura convergenti su clima e sostenibilità), la risposta fisiologica della vite allo stress idrico (OENO One) e i funghi micorrizici come scudo idrico nei vigneti cileni.</li>
+</ul>
+<h2 id="statistiche-dati">Statistiche &amp; dati</h2>
+<div class="tablewrap"><table><thead><tr><th>Indicatore</th><th>Valore</th><th>Variazione / Nota</th><th>Fonte</th></tr></thead><tbody><tr><td>Vendemmia Germania 2026 — inizio</td><td>2ª settimana di agosto</td><td>~1 settimana prima della media; la più precoce di sempre</td><td><a href="https://www.deutscheweine.de/" target="_blank" rel="noopener">DWI/deutscheweine.de</a></td></tr><tr><td>Produzione vino Germania 2025</td><td>7,55 mhl</td><td>-2,6% vs 2024; più Prädikatswein, meno vino base</td><td><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_105_412.html" target="_blank" rel="noopener">Destatis</a></td></tr><tr><td>Export vino fermo Germania 2025 (volume)</td><td>1,203 mhl</td><td>+1% vs 2024</td><td><a href="https://deutscher-weinbauverband.de/der-deutsche-weinexport-2025-zahlen-und-trends" target="_blank" rel="noopener">DWV</a></td></tr><tr><td>Export vino fermo Germania 2025 (valore)</td><td>377 mln €</td><td>-2% vs 2024: più volume, meno valore</td><td><a href="https://www.meininger.de/wein/handel/deutschlands-export-bleibt-stabil" target="_blank" rel="noopener">DWV/Meininger</a></td></tr><tr><td>Valore agricolo Sonoma County 2025</td><td>~-10%</td><td>winegrape (produzione e prezzo) il principale freno</td><td><a href="https://www.winebusiness.com/" target="_blank" rel="noopener">Wine Business</a></td></tr><tr><td>Valore raccolta winegrape Sonoma 2025 (stima)</td><td>~523 mln $</td><td>da 777 mln $ nel 2018; quinto anno di calo</td><td><a href="https://bohemian.com/bottle-shock-sonoma-countys-wine-industry-enters-fifth-year-of-decline" target="_blank" rel="noopener">Bohemian</a></td></tr><tr><td>Mercato viticoltura di precisione USA 2026 (proiezione)</td><td>2,85 mld $</td><td>sensori, droni, robotica e AI in vigna</td><td><a href="https://www.vinetur.com/" target="_blank" rel="noopener">Vinetur</a></td></tr></tbody></table></div>
+<h2 id="notizie">Notizie</h2>
+<ul>
+<li><strong>Germania (area approfondita): raccolta record di precocità, chiusura a settembre</strong> — per il DWI la vendemmia 2026 è partita nella seconda settimana di agosto, circa una settimana in anticipo sulla media e la più precoce mai registrata; quasi tutte le varietà maturano insieme, comprimendo la finestra di raccolta in poche settimane, con uve sane ma volumi in calo dopo il -2,6% del 2025. (<a href="https://lebensmittelpraxis.de/" target="_blank" rel="noopener">Lebensmittelpraxis</a>, <a href="https://www.vinetur.com/" target="_blank" rel="noopener">Vinetur</a>, <a href="https://www.deutscheweine.de/" target="_blank" rel="noopener">DWI</a> e <a href="https://germanwineusa.com/germanys-2026-grape-harvest-begins-early-with-promising-quality" target="_blank" rel="noopener">German Wine USA</a>)</li>
+<li><strong>USA (seconda area): Sonoma County, quinto anno di contrazione</strong> — il crop report 2025 certifica un valore agricolo totale in calo di quasi il 10%, con l'uva da vino in testa ai ribassi: produzione e prezzi giù per il secondo anno consecutivo, in un contesto di consumo americano che non riparte. (<a href="https://www.winebusiness.com/" target="_blank" rel="noopener">Wine Business</a>, <a href="https://bohemian.com/bottle-shock-sonoma-countys-wine-industry-enters-fifth-year-of-decline" target="_blank" rel="noopener">Bohemian</a>)</li>
+<li><strong>Regno Unito: arrestato per frode sul vino contraffatto</strong> — un uomo è stato arrestato dopo un'indagine su 55 bottiglie di vino sospetto contraffatto rivendute a un acquirente per oltre 500.000 £; ennesimo caso che riaccende i riflettori sulla verifica della provenienza nel mercato del collezionismo. (<a href="https://www.thedrinksbusiness.com/" target="_blank" rel="noopener">The Drinks Business</a>)</li>
+<li><strong>Il vino italiano cambia mercati e fattori strutturali</strong> — in chiusura di un 2026 difficile, WineNews fotografa uno scenario in cui canali, consumi e geografie dell'export italiano si stanno ridefinendo in modo permanente, con gli spumanti sotto pressione e il canale trade in riassetto. (<a href="https://winenews.it/" target="_blank" rel="noopener">WineNews</a>)</li>
+<li><strong>Il Brasile sorride all'Italia: il Merano WineFestival vola a San Paolo</strong> — il festival altoatesino sbarca in Brasile in un abbinamento vino-turismo che rafforza la presenza italiana sul mercato sudamericano. (<a href="https://winenews.it/" target="_blank" rel="noopener">WineNews</a>)</li>
+<li><strong>Suckling: Top 100 Wines of Italy 2026</strong> — Brunello e Barolo ai vertici della classifica annuale del critico americano, conferma del peso dei grandi rossi toscani e piemontesi nell'immagine internazionale del vino italiano. (<a href="https://winenews.it/" target="_blank" rel="noopener">WineNews</a>)</li>
+</ul>
+<h2 id="ricerca-innovazione">Ricerca &amp; Innovazione</h2>
+<ul>
+<li><strong>AJEV — le priorità di ricerca 2026: viticoltura ed enologia convergono su clima e sostenibilità</strong> — l'analisi di Watrelot et al. (AJEV 77/1) mappa le sfide condivise tra ricerca viticola ed enologica: i temi coincidono e ruotano attorno a cambiamento climatico e sostenibilità, con l'enologia chiamata ad adattare le pratiche di vinificazione a una chimica dell'uva in mutamento e a sviluppare tecniche analitiche rapide per decisioni in tempo reale. (<a href="https://www.ajevonline.org/content/77/1/0770006" target="_blank" rel="noopener">AJEV</a>)</li>
+<li><strong>OENO One — cosa fa lo stress idrico alla vite</strong> — Girardi et al. (2026) analizzano la risposta fisiologica e biochimica di *Vitis vinifera* alla carenza idrica: riduzione del peso del grappolo e delle dimensioni della bacca, calo dell'acidità titolabile e alterazioni del profilo fenolico. Una base per la gestione irrigua in un'annata europea calda e asciutta come la 2026. (<a href="https://oeno-one.eu/article/view/9732" target="_blank" rel="noopener">OENO One</a>)</li>
+<li><strong>OENO One — America Latina: i funghi micorrizici come scudo idrico</strong> — Ríos-Nuñez et al. (2026) passano in rassegna la viticoltura latinoamericana di fronte al climate change e indicano nell'applicazione di funghi micorrizici arbuscolari una leva per mitigare stress idrico e biotico, con il caso cileno in primo piano: simbiosi radicali che migliorano l'assorbimento d'acqua e la resilienza della pianta. (<a href="https://oeno-one.eu/article/view/9477" target="_blank" rel="noopener">OENO One</a>)</li>
+<li><strong>"Andare, restare o cambiare": il dilemma climatico dei viticoltori</strong> — un'analisi ripresa da Phys.org sintetizza la scelta di fondo del settore: continuare a coltivare le varietà storiche con le nuove tecnologie, oppure spostare la produzione verso climi più freschi — con implicazioni profonde su identità territoriale e valore delle denominazioni. (<a href="https://phys.org/news/2026-06-climate-wine-grapes-stay.html" target="_blank" rel="noopener">Phys.org</a>)</li>
+<li><strong>Mercato USA della viticoltura di precisione verso 2,85 mld $</strong> — il segmento statunitense di sensori, robotica e analisi AI per il vigneto è proiettato a 2,85 mld $; tra i casi citati, il monitoraggio robotizzato dell'uva con analisi AI di VinSense per irrigazione e rilevamento dei parassiti. (<a href="https://www.vinetur.com/" target="_blank" rel="noopener">Vinetur</a>)</li>
+</ul>
+<h2 id="conoscenza-enologica-del-giorno">Conoscenza enologica del giorno</h2>
+<p><strong>Riesling: l'acidità come firma e il "petrolio" che invecchia</strong></p>
+<p>Il Riesling è la varietà identitaria della Germania — oltre la metà del vigneto tedesco — e la sua fama mondiale si regge su due tratti opposti e complementari: un'acidità altissima e una straordinaria capacità di invecchiare. Il segreto sta nell'equilibrio acido-zuccherino: in Germania si vendemmia per raggiungere la pienezza aromatica conservando pH bassi (spesso 2,8-3,1), il che dà ai vini tensione, longevità e la capacità di evolvere per decenni, anche a livelli di alcol contenuti — un vantaggio enorme proprio nelle annate calde, dove l'acidità è la risorsa più a rischio.</p>
+<p>L'altra cifra sensoriale è la nota "petrolifera", che nei Riesling maturi evoca idrocarburi e fiori secchi. Non è un difetto ma una precisa reazione chimica: con l'invecchiamento i precursori carotenoidi dell'uva si trasformano in <strong>TDN (1,1,6-trimetil-1,2-diidronaftalene)</strong>, composto che si accumula nel vino e diventa percettibile soprattutto dopo qualche anno di bottiglia. La sua concentrazione dipende da maturazione, esposizione solare e stress idrico della vite: le annate calde e precoci come la 2026 — vendemmia iniziata ad agosto e anticipo record — tendono ad aumentarne i precursori già nell'uva. Capire e gestire il TDN è quindi, per i produttori tedeschi, una sfida enologica che intreccia clima, stile e mercato: la stessa varietà, in annate diverse, racconta con la chimica la storia della sua annata.</p>
+<h2 id="fonti">Fonti</h2>
+<ul>
+<li><a href="https://www.deutscheweine.de/" target="_blank" rel="noopener">DWI/deutscheweine.de — Früher Weinlesestart mit hochreifen Trauben (2026)</a></li>
+<li><a href="https://lebensmittelpraxis.de/" target="_blank" rel="noopener">Lebensmittelpraxis — Deutsche Winzer starten so früh in die Lese wie nie zuvor (28/8/2026)</a></li>
+<li><a href="https://www.vinetur.com/" target="_blank" rel="noopener">Vinetur — Deutschland startet die früheste Weinlese aller Zeiten (31/8/2026)</a></li>
+<li><a href="https://germanwineusa.com/germanys-2026-grape-harvest-begins-early-with-promising-quality" target="_blank" rel="noopener">German Wine USA — Germany's 2026 Grape Harvest Begins Early with Promising Quality</a></li>
+<li><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_105_412.html" target="_blank" rel="noopener">Destatis — Weinerzeugung 2025: Rückgang um 2,6% auf 7,55 Millionen Hektoliter (3/2026)</a></li>
+<li><a href="https://deutscher-weinbauverband.de/der-deutsche-weinexport-2025-zahlen-und-trends" target="_blank" rel="noopener">DWV — Der deutsche Weinexport 2025 – Zahlen und Trends (30/3/2026)</a></li>
+<li><a href="https://www.meininger.de/wein/handel/deutschlands-export-bleibt-stabil" target="_blank" rel="noopener">Meininger — Deutschlands Export bleibt stabil (18/3/2026)</a></li>
+<li><a href="https://www.winebusiness.com/" target="_blank" rel="noopener">Wine Business — Sonoma County crop value 2025 (18/9/2026)</a></li>
+<li><a href="https://bohemian.com/bottle-shock-sonoma-countys-wine-industry-enters-fifth-year-of-decline" target="_blank" rel="noopener">Bohemian — Bottle Shock: Sonoma County's Wine Industry Enters Fifth Year of Decline (11/8/2026)</a></li>
+<li><a href="https://www.napaserve.org/under-the-hood/sonoma-cab-2025" target="_blank" rel="noopener">NapaServe — Sonoma Grape Prices Fall for a Second Year as Cabernet Declines</a></li>
+<li><a href="https://www.thedrinksbusiness.com/" target="_blank" rel="noopener">The Drinks Business — Man arrested over suspected £500,000 counterfeit wine sale (2/9/2026)</a></li>
+<li><a href="https://winenews.it/" target="_blank" rel="noopener">WineNews — Vino italiano 2026: diversi mercati e fattori stanno cambiando</a></li>
+<li><a href="https://winenews.it/" target="_blank" rel="noopener">WineNews — Merano WineFestival a San Paolo / Top 100 Wines of Italy 2026 by Suckling</a></li>
+<li><a href="https://www.ajevonline.org/content/77/1/0770006" target="_blank" rel="noopener">AJEV — Watrelot et al., A Comprehensive Analysis of Shared Challenges and Opportunities (77/1, 2026)</a></li>
+<li><a href="https://oeno-one.eu/article/view/9732" target="_blank" rel="noopener">OENO One — Girardi et al., Physiological responses of grapevine to water stress (2026)</a></li>
+<li><a href="https://oeno-one.eu/article/view/9477" target="_blank" rel="noopener">OENO One — Ríos-Nuñez et al., Climate change and viticulture in Latin America (2026)</a></li>
+<li><a href="https://phys.org/news/2026-06-climate-wine-grapes-stay.html" target="_blank" rel="noopener">Phys.org — Climate change and wine grapes: Go, stay or change? (6/2026)</a></li>
+<li><a href="https://www.vinetur.com/" target="_blank" rel="noopener">Vinetur — U.S. Precision Viticulture Market Set to Hit $2.85 Billion (16/1/2026)</a></li>
+<li><a href="https://www.lasommeliere.com/" target="_blank" rel="noopener">La Sommelière — How technology is transforming wine tasting in 2026 (3/9/2026)</a></li>
+</ul></div><div class="pager"><span></span><a href="2026-09-18.html">Più vecchio (18 settembre 2026) →</a></div></main><footer><div class="in"><div class="views">Visualizzazioni totali: <span id="view-count">…</span></div><script>(function () {var el = document.getElementById("view-count");if (!el) return;var url = "https://abacus.jasoncameron.dev/hit/wine-insights-site/total";var done = false;function show(n, note) { el.textContent = Number(n).toLocaleString("it-IT") + (note ? " " + note : ""); }function fallback() { if (done) return; done = true; var loc = 0; try { loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10); } catch (e) {} show(loc, "(questo dispositivo)"); }try { var loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10) + 1; localStorage.setItem("wiLocalViews", String(loc)); } catch (e) {}try { var xhr = new XMLHttpRequest(); xhr.open("GET", url); xhr.responseType = "json";xhr.onload = function () { if (xhr.status === 200 && xhr.response && typeof xhr.response.value === "number") { done = true; show(xhr.response.value); } else { fallback(); } };xhr.onerror = fallback; xhr.send(); } catch (e) { fallback(); }try { fetch("https://get.geojs.io/v1/ip/geo.json").then(function (r) { return r.json(); }).then(function (g) {var cc = (g.country_code || "").toUpperCase();var list = ["IT","US","FR","DE","GB","CH","ES","PT","AT","BE","NL","LU","BR","AR","CL","MX","CA","AU","NZ","ZA","CN","JP","IN","KR"];var key = (cc && list.indexOf(cc) >= 0) ? "geo-" + cc : "geo-ALTRO";var x = new XMLHttpRequest(); x.open("GET", "https://abacus.jasoncameron.dev/hit/wine-insights-geo/" + key); x.send();}).catch(function () {}); } catch (e) {}})();</script>Made by <strong>Alberto Cugnetto PhD</strong> with <strong>AutoClaw</strong> · <a href="https://www.linkedin.com/in/alberto-cugnetto-ph-d-03aa3418/" target="_blank" rel="noopener">Profilo LinkedIn</a> · Piattaforma realizzata nel contesto del progetto <a href="https://growine.it/" target="_blank" rel="noopener"><strong>GROWINE</strong></a> <img src="../assets/logo-growine-white.png" alt="GROWINE — Wine Consulting" style="height:13px;vertical-align:middle;border:0"><br>Contenuti generati automaticamente da ricerche web (Wine Insights, OpenClaw). Verificare i dati numerici sulle fonti originali prima di usarli in decisioni commerciali o pubblicazioni.<br>Pagina rigenerata il 19 settembre 2026 alle ore 08:45 (Europe/Rome).</div></footer></body></html>
