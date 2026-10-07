@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Insights — Report del 7 ottobre 2026</title>
+<meta name="description" content="Report Wine Insights del 7 ottobre 2026: statistiche, notizie, ricerca e innovazioni sul vino.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#FAF6F4;color:#2E2222;line-height:1.6}
+a{color:#722F37}
+.topbar{position:sticky;top:0;background:rgba(250,246,244,.96);backdrop-filter:blur(6px);border-bottom:1px solid #E8DBD9;z-index:10}
+.topbar .in{max-width:1060px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:13px 24px;flex-wrap:wrap}
+.brand{font-weight:800;color:#722F37;font-size:18px;text-decoration:none;letter-spacing:.2px}
+.brand span{color:#2E2222;font-weight:600}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#5C4646;text-decoration:none;font-size:14px}
+nav a:hover{color:#722F37}
+.hero{background:linear-gradient(135deg,#4A1F24,#722F37);color:#fff;padding:60px 24px}
+.hero .in{max-width:1060px;margin:0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:.4px}
+.hero h1{font-size:44px;margin:18px 0 10px;line-height:1.15}
+.byline{color:#E8CDD0;font-size:16.5px;margin-top:4px}
+.byline .author{color:#fff;font-weight:600}
+.linkedin{margin-top:10px;font-size:14.5px}
+.linkedin a{color:#F3E3E4;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 16px;display:inline-block}
+.linkedin a:hover{background:rgba(255,255,255,.12)}
+.growine{margin-top:12px;font-size:15px;color:#E8CDD0;display:flex;align-items:center;gap:10px}
+.growine-logo{height:26px;width:auto;display:block}
+.growine-link{display:inline-flex;align-items:center}
+.growine-link:hover{opacity:.82}
+.notice{background:rgba(255,214,102,.16);border:1px solid rgba(255,214,102,.55);color:#FFE9B0;padding:9px 16px;border-radius:10px;display:inline-block;margin-top:12px;font-size:14px}
+.hero p{color:#F3E3E4;font-size:18px;max-width:680px}
+.hero .meta{color:#E8CDD0;font-size:14.5px;margin-top:14px}
+.hero-logo{display:block;width:430px;max-width:100%;height:auto;margin:14px 0 4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+main{max-width:1060px;margin:0 auto;padding:40px 24px 64px}
+section{margin-bottom:56px;scroll-margin-top:76px}
+.overline{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+h2.sec{font-size:30px;color:#3A2626;margin:6px 0 18px}
+.card{background:#fff;border:1px solid #E8DBD9;border-radius:16px;padding:28px}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:#F3E7E8;color:#4A1F24;text-align:left;padding:10px 12px;border-bottom:2px solid #B08A8E;font-size:12.5px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:9px 12px;border-bottom:1px solid #EFE5E3;vertical-align:top}
+tbody tr:hover td{background:#FBF4F2}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.rcard{background:#fff;border:1px solid #E8DBD9;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.rcard .date{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+.rcard ul{margin-left:18px;font-size:14px;color:#5C4646}
+.rcard li{margin:4px 0}
+.rcard a.more{font-size:14px;font-weight:700;text-decoration:none;color:#722F37;margin-top:auto}
+.rcard a.more:hover{text-decoration:underline}
+.howto{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+.howto img{width:100%;border:1px solid #E8DBD9;border-radius:14px;background:#fff}
+.howto ul{margin:12px 0 0 20px;font-size:15px;color:#5C4646}
+.howto li{margin:6px 0}
+.note{font-size:13.5px;color:#8A6F6F;margin-top:12px}
+article h1{font-size:34px;color:#3A2626;margin:8px 0 6px}
+article h2{font-size:24px;color:#722F37;border-left:4px solid #722F37;padding-left:12px;margin:34px 0 14px}
+article h3{font-size:19px;margin:22px 0 10px;color:#3A2626}
+article p{margin:10px 0}
+article ul{margin:10px 0 10px 22px}
+article li{margin:6px 0}
+article blockquote{background:#F3E7E8;border-left:4px solid #B08A8E;padding:12px 16px;border-radius:0 10px 10px 0;color:#5C4646;margin:14px 0;font-size:15px}
+article hr{border:none;border-top:1px solid #E8DBD9;margin:26px 0}
+article code{background:#F3E7E8;border-radius:6px;padding:1px 6px;font-size:.9em}
+article pre{background:#3A2626;color:#F3E3E4;border-radius:12px;padding:16px;overflow-x:auto;margin:14px 0}
+article pre code{background:none;color:inherit}
+.meta{color:#8A6F6F;font-size:13.5px}
+.crumb{font-size:14px;margin-bottom:18px}
+.crumb a{text-decoration:none;font-weight:700}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:36px;flex-wrap:wrap}
+.pager a{font-weight:700;text-decoration:none;color:#722F37;font-size:14.5px}
+.views{font-size:14px;font-weight:600;color:#4A1F24;background:#F3E7E8;border:1px solid #E4D2D3;border-radius:10px;padding:8px 14px;display:inline-block;margin-bottom:12px}
+footer{border-top:1px solid #E8DBD9;padding:26px 24px;color:#8A6F6F;font-size:13.5px}
+footer .in{max-width:1060px;margin:0 auto}
+@media(max-width:820px){.howto{grid-template-columns:1fr}.hero h1{font-size:34px}}
+</style>
+</head>
+<body><div class="topbar"><div class="in"><a class="brand" href="../index.html">Wine <span>Insights</span></a><nav><a href="../index.html#analisi">Ultime analisi</a><a href="../index.html#indicatori">Indicatori</a><a href="../index.html#archivio">Archivio</a></nav></div></div><main><div class="crumb"><a href="../index.html">← Torna alla dashboard</a></div><div class="card article"><div class="meta">Report generato automaticamente il 7 ottobre 2026 — dati da ricerche web, fonti originali in calce.</div><h1>Wine Insights — 7 ottobre 2026</h1><blockquote>Rotazione geografica di oggi: <strong>Sud Africa</strong> (giorno del mese 7 mod 10 → indice 7). Seconda area approfondita in base all'attualità: <strong>Germania</strong> (vendemmia conclusa prima di ottobre per la prima volta). Aggiornamenti di fatti già trattati nei giorni scorsi: Francia ~34 mhl (conferma del dato, ora inquadrato come minimo degli ultimi trent'anni), dazi UE-USA al 15% (nessun carve-out, Bruxelles ammette che serve più tempo). <strong>Limiti della sessione</strong>: la prima stima OIV sulla produzione mondiale 2026 non è ancora stata pubblicata (attesa a fine ottobre); nessun dato Liv-ex di settembre-ottobre reperibile; per il Sud Africa i dettagli SAWIS sui flussi di esportazione 2026 non sono stati disponibili online in sessione.</blockquote>
+<h2 id="sintesi-esecutiva">Sintesi esecutiva</h2>
+<ul>
+<li><strong>Spagna: quarta vendemmia consecutiva "magra"</strong> — la produzione 2026 è stimata intorno ai <strong>34 milioni di ettolitri</strong> da Cooperativas Agro-alimentarias: se confermata, è il quarto anno di fila sotto i 37 mhl, con uva di "ottima qualità" ma acini piccoli e leggeri; insieme alle previsioni francesi trascina ai minimi la produzione mondiale.</li>
+<li><strong>Germania (2ª area): vendemmia conclusa prima di ottobre, una novità storica</strong> — siccità e caldo hanno anticipato la maturazione di ~18 giorni; in Franconia si attendono ~<strong>320.000 hl</strong> contro i 432.000 del 2025 (resa media 55 hl/ha da 72), nel Saarland calori del <strong>35-40%</strong>, con precipitazioni da gennaio a settembre pari a circa metà della norma.</li>
+<li><strong>Sud Africa (1ª area): raccolto 2026 resilient e di qualità, ma i mercati pesano</strong> — vendemmia chiusa a <strong>1,37 milioni di tonnellate</strong> dopo una stagione "a pendolo" tra siccità e piogge intense; export 2025 chiusi a 264 mln litri per R9,8 mld (<strong>-2,4%</strong> a/a) con i volumi verso il UK (primo mercato) in calo del 7%, mentre il nuovo regime tariffario zero-dazi verso la Cina (biennale, da fine aprile) apre una via di diversificazione.</li>
+<li><strong>UK: il duty riescalato dal 1° febbraio 2026 comprime il primo mercato di esportazione del vino sudafricano</strong> — l'Alcohol Duty è aumentata dell'<strong>3,66%</strong> (RPI) a inizio anno, a cascata su VAT e prezzi: ulteriore pressione sui volumi sia per il vino SA che per i competitor europei.</li>
+<li><strong>Ricerca: quattro nuovi articoli su OENO One tra fine settembre</strong> — dai vini dealcolati (studio sudafricano su glicerolo e mouthfeel) alla modellistica predittiva della peronospora, fino alla risposta fisiologica della Shiraz a siccità, luce e calore: la scienza accompagna da vicino l'annata climaticamente estrema.</li>
+</ul>
+<h2 id="statistiche-dati">Statistiche &amp; dati</h2>
+<div class="tablewrap"><table><thead><tr><th>Indicatore</th><th>Valore</th><th>Variazione / Nota</th><th>Fonte</th></tr></thead><tbody><tr><td>Produzione vino Spagna 2026 (stima Cooperativas Agro-alimentarias)</td><td>~34 mhl</td><td>4° anno consecutivo sotto i 37 mhl; qualità alta, acini piccoli</td><td><a href="https://www.gamberorosso.it/notizie/vino/tre-bicchieri/vendemmia-2026-spagna-stime" target="_blank" rel="noopener">Gambero Rosso</a></td></tr><tr><td>Produzione vino Francia 2026 (stima)</td><td>~34 mhl</td><td>conferma il dato più basso degli ultimi trent'anni (già indicato ~33,9 mhl)</td><td><a href="https://www.gamberorosso.it/notizie/vino/tre-bicchieri/francia-vendemmia-2026-stime-34-milioni-ettolitri" target="_blank" rel="noopener">Gambero Rosso</a></td></tr><tr><td>Vendemmia Franconia (DE) 2026</td><td>~320.000 hl</td><td>da 432.000 hl nel 2025 (≈ -26%); resa 55 hl/ha da 72</td><td><a href="https://www.vinetur.com/en/20260930108043/germany-s-2026-grape-harvest-ended-before-october-after-drought-shrank-yields.html" target="_blank" rel="noopener">Vinetur</a></td></tr><tr><td>Vendemmia Saarland (DE) 2026</td><td>-35/40%</td><td>singole aziende da -15% a -60%; pioggia gen-set ~metà della norma</td><td><a href="https://www.vinetur.com/en/20260930108043/germany-s-2026-grape-harvest-ended-before-october-after-drought-shrank-yields.html" target="_blank" rel="noopener">Vinetur</a></td></tr><tr><td>Raccolto uva Sud Africa 2026</td><td>1,37 mln t</td><td>stagione "a pendolo", raccolto resilient e qualitativamente promettente</td><td><a href="https://harpers.co.uk/" target="_blank" rel="noopener">Harpers</a>, <a href="https://www.meininger.de/" target="_blank" rel="noopener">Meininger</a></td></tr><tr><td>Export vino Sud Africa 2025</td><td>264 mln l / R9,8 mld</td><td>-2,4% a/a in valore solo parzialmente compensato dai prezzi</td><td><a href="https://harpers.co.uk/" target="_blank" rel="noopener">Harpers</a></td></tr><tr><td>UK Alcohol Duty (uprating 1/2/2026)</td><td>+3,66%</td><td>adeguamento RPI; incide su tutti i vini importati nel primo mercato SA</td><td><a href="https://www.gov.uk/government/publications/alcohol-duty-rates-change/alcohol-duty-uprating" target="_blank" rel="noopener">GOV.UK</a>, <a href="https://dropbylocal.com/learn/wine/changes-to-uk-alcohol-duty" target="_blank" rel="noopener">Drop By Local</a></td></tr></tbody></table></div>
+<h2 id="notizie">Notizie</h2>
+<ul>
+<li><strong>Spagna (aggiornamento): 34 mhl, il quadro della campagna</strong> — il sindacato Cooperativas Agro-alimentarias ha fatto il punto sulla raccolta: produzione stimata a ~34 mhl, quarta vendemmia sotto i 37 mhl, uva "di ottima qualità" ma con acini piccoli e leggeri che comprimono i volumi; con la Francia (~34 mhl, minimo trentennale) il vecchio continente si prepara a un'offerta ulteriormente ridotta. (<a href="https://www.gamberorosso.it/notizie/vino/tre-bicchieri/vendemmia-2026-spagna-stime" target="_blank" rel="noopener">Gambero Rosso</a>)</li>
+<li><strong>Germania (2ª area): la vendemmia finisce a settembre, senza precedenti</strong> — raccolto concluso prima di ottobre per la prima volta: piena maturazione in Franconia già il 1° settembre (18 giorni di anticipo sulla media) e ciclo fioritura-vendemmia ridotto da ~100 a ~85 giorni; siccità cronica (225 l/m² da gennaio, metà della norma) con bacche piccole e less juicy, giovani viti sotto stress idrico. (<a href="https://www.vinetur.com/en/20260930108043/germany-s-2026-grape-harvest-ended-before-october-after-drought-shrank-yields.html" target="_blank" rel="noopener">Vinetur</a>)</li>
+<li><strong>Sud Africa (1ª area): 1,37 milioni di tonnellate dopo la stagione "a pendolo"</strong> — la vendemmia si è chiusa con un raccolto in lieve recupero, descritto come resilient e orientato alla qualità nonostante alti e bassi climatici tra siccità e piogge intense; i consorzi parlano di un'annata che premia i vigneti meglio gestiti. (<a href="https://harpers.co.uk/" target="_blank" rel="noopener">Harpers</a>, <a href="https://www.meininger.de/" target="_blank" rel="noopener">Meininger</a>, <a href="https://www.thedrinksbusiness.com/2026/05/south-africa-predicts-high-quality-2026-wine-harvest" target="_blank" rel="noopener">The Drinks Business</a>)</li>
+<li><strong>Sud Africa: export, il UK frena e la Cina apre</strong> — nel 2025 gli invii totali sono scesi solo del 2,4% (264 mln l, R9,8 mld) grazie ai prezzi, ma i volumi verso il Regno Unito (primo mercato) hanno ceduto il 7%; da fine aprile il regime di zero-tariffa biennale verso la Cina per i vini conformi alle regole d'origine offre una nuova leva di diversificazione. (<a href="https://harpers.co.uk/" target="_blank" rel="noopener">Harpers</a>, <a href="https://sawine.co.za/" target="_blank" rel="noopener">SA Wine</a>, <a href="https://www.engineeringnews.co.za/" target="_blank" rel="noopener">Engineering News</a>) Sullo sfondo, il duty UK riescalato del 3,66% dal 1° febbraio continua a pesare sui prezzi a scaffale. (<a href="https://www.gov.uk/government/publications/alcohol-duty-rates-change/alcohol-duty-uprating" target="_blank" rel="noopener">GOV.UK</a>)</li>
+<li><strong>Dazi UE-USA (aggiornamento): "per il vino serve più tempo"</strong> — nessun carve-out in vista: la tariffa del 15% resta applicata al vino europeo da luglio e Bruxelles ammette che l'esenzione negozierà ancora, senza date; il settore continua a convivere con l'incertezza già descritta nei giorni scorsi. (<a href="https://www.gamberorossointernational.com/news/were-working-on-tariff-exemptions-but-for-wine-more-time-is-needed-the-european-union-announces-progress" target="_blank" rel="noopener">Gambero Rosso International</a>, <a href="https://www.meininger.de/en/news/eu-us-tariff-agreement-enters-force" target="_blank" rel="noopener">Meininger</a>)</li>
+<li><strong>Italia: il mosaico della vendemmia secondo i consorzi</strong> — raccolta in anticipo quasi ovunque (Alto Adige: la partenza più precoce di sempre; Toscana meridionale e Umbria ~2 settimane prima), uve sane ma quantità divise: Monferrato ottimo, Montecucco -10/15%, Sicilia con volumi in calo e buona qualità; il bilancio definitivo arriva a fine raccolta. (<a href="https://www.informacibo.it/come-sta-andando-la-vendemmia-2026-valutazioni-dei-consorzi" target="_blank" rel="noopener">Informacibo</a>)</li>
+</ul>
+<h2 id="ricerca-innovazione">Ricerca &amp; Innovazione</h2>
+<ul>
+<li><strong>OENO One (30/9/2026): glicerolo e additivi per i vini dealcolati</strong> — il gruppo di Herholdt, Du Toit e Brand (Stellenbosch, Sud Africa) investiga come glicerolo e additivi selezionati incidano su gusto, mouthfeel e qualità percepita dei dealcolati: il pezzo tecnico che collega la 1ª area di oggi al trend diConsumo a bassa gradazione. (<a href="https://oeno-one.eu/" target="_blank" rel="noopener">OENO One</a>)</li>
+<li><strong>OENO One (25/9/2026): le oospore della peronospora sotto modello</strong> — Leoni e colleghi integrano monitoraggi di lungo periodo sulla germinazione delle oospore di *Plasmopara viticola* in modelli predittivi: previsioni d'infezione più precise per gestire i trattamenti in annate umide. (<a href="https://oeno-one.eu/" target="_blank" rel="noopener">OENO One</a>)</li>
+<li><strong>OENO One (25/9/2026): Shiraz sotto siccità, luce e calore</strong> — Shtai, Bonada, Edwards, Wohlfahrt, Tagliavini e Petrie misurano la risposta fisiologica della cv. Shiraz a siccità, esposizione alla luce e stress termico: indicazioni dirette per irrigazione deficitaria e canopia nelle vendemmie 2026. (<a href="https://oeno-one.eu/" target="_blank" rel="noopener">OENO One</a>)</li>
+<li><strong>OENO One (24/9/2026): lieviti endofitici contro il marciume bianco</strong> — Del Frari e colleghi valutano potenziali antagonisti microbici endofitici della vite contro il white rot: una prospettiva di biocontrollo a basso impatto per la gestione fitosanitaria. (<a href="https://oeno-one.eu/" target="_blank" rel="noopener">OENO One</a>)</li>
+<li><strong>Precision viticulture alla Cavit + appuntamento SIMEI</strong> — in Trentino Cavit racconta una vendemmia "leggere ettaro per ettaro" con oltre 5.000 analisi delle uve, 1.000 vigneti monitorati e una stazione meteo ogni 70 ettari: il modello "laboratorio diffuso" che qualifica la scelta dei dati sulla resa. (<a href="https://www.mixerplanet.com/" target="_blank" rel="noopener">MixerPlanet</a>) A novembre la fiera SIMEI 2026 (Milano, 17-20/11) porterà in scena le novità tecnologiche di cantina e imbottigliamento. (<a href="https://www.beverfood.com/" target="_blank" rel="noopener">Beverfood</a>)</li>
+</ul>
+<h2 id="conoscenza-enologica-del-giorno">Conoscenza enologica del giorno</h2>
+<p><strong>Annate siccitose: perché gli acini piccoli danno vini più concentrati (finché non è troppo)</strong></p>
+<p>La siccità che ha chiuso la vendemmia tedesca a settembre agisce in vigna su tre livelli. Primo: con il suolo secco la vite chiude parzialmente gli stomi, la fotosintesi rallenta e la pianta "raziona" l'acqua; le bacche ricevono meno acqua, restano piccole e il rapporto buccia/polpa sale. Secondo: più buccia a parità di mosto significa più tannini, antociani e precursori aromatici per litro — da qui i mosti "densi e concentrati" descritti in Germania, Spagna e Francia. Terzo: il caldo spinge gli zuccheri mentre l'acidità (acido malico) degrada più in fretta, comprimendo la finestra di raccolta su profili gustativi già molto maturi.</p>
+<p>Finché lo stress idrico resta moderato, l'annata guadagna in concentrazione e tipicità; quando diventa severo — come nel Saarland, con rese -35/40% — la vite sospende la maturazione fenolica, il legno giovane soffre e la conta passa alle rese, non alla qualità. La lezione del 2026: la vera assicurazione della vendemmia è la riserva d'acqua accumulata nel suolo tra inverno e primavera (come sottolineano i consorzi italiani), e oggi la gestione del suolo — materia organica, inerbimento, portinnesto, gestione della canopia — è tanto strategica quanto la scelta del vitigno.</p>
+<h2 id="fonti">Fonti</h2>
+<ul>
+<li><a href="https://www.gamberorosso.it/notizie/vino/tre-bicchieri/vendemmia-2026-spagna-stime" target="_blank" rel="noopener">Gambero Rosso — Ancora una vendemmia contenuta in Spagna: produzione 2026 stimata a 34 milioni di ettolitri</a></li>
+<li><a href="https://www.gamberorosso.it/notizie/vino/tre-bicchieri/francia-vendemmia-2026-stime-34-milioni-ettolitri" target="_blank" rel="noopener">Gambero Rosso — Per la Francia stimata una vendemmia da 34 milioni di ettolitri</a></li>
+<li><a href="https://www.vinetur.com/en/20260930108043/germany-s-2026-grape-harvest-ended-before-october-after-drought-shrank-yields.html" target="_blank" rel="noopener">Vinetur — Germany's 2026 grape harvest ended before October after drought shrank yields</a></li>
+<li><a href="https://harpers.co.uk/" target="_blank" rel="noopener">Harpers — South African harvest concludes after 'pendulum' growing season</a></li>
+<li><a href="https://harpers.co.uk/" target="_blank" rel="noopener">Harpers — South African exports show resilience amid global market challenges</a></li>
+<li><a href="https://www.meininger.de/" target="_blank" rel="noopener">Meininger — South Africa Reports Slight Increase in Harvest Volume</a></li>
+<li><a href="https://www.thedrinksbusiness.com/2026/05/south-africa-predicts-high-quality-2026-wine-harvest" target="_blank" rel="noopener">The Drinks Business — South Africa predicts high-quality 2026 wine harvest</a></li>
+<li><a href="https://sawine.co.za/" target="_blank" rel="noopener">SA Wine — South African wine industry welcomes zero-tariff access to China</a></li>
+<li><a href="https://www.engineeringnews.co.za/" target="_blank" rel="noopener">Engineering News — Wine industry welcomes zero-tariff access to China market</a></li>
+<li><a href="https://www.gov.uk/government/publications/alcohol-duty-rates-change/alcohol-duty-uprating" target="_blank" rel="noopener">GOV.UK — Alcohol Duty uprating (1 February 2026)</a></li>
+<li><a href="https://dropbylocal.com/learn/wine/changes-to-uk-alcohol-duty" target="_blank" rel="noopener">Drop By Local — February 2026 Changes to UK Alcohol Duty</a></li>
+<li><a href="https://www.gamberorossointernational.com/news/were-working-on-tariff-exemptions-but-for-wine-more-time-is-needed-the-european-union-announces-progress" target="_blank" rel="noopener">Gambero Rosso International — "We're working on tariff exemptions, but for wine more time is needed"</a></li>
+<li><a href="https://www.meininger.de/en/news/eu-us-tariff-agreement-enters-force" target="_blank" rel="noopener">Meininger — EU-US Tariff Agreement Enters into Force</a></li>
+<li><a href="https://www.informacibo.it/come-sta-andando-la-vendemmia-2026-valutazioni-dei-consorzi" target="_blank" rel="noopener">Informacibo — Vendemmia 2026: le prime valutazioni dei consorzi</a></li>
+<li><a href="https://oeno-one.eu/" target="_blank" rel="noopener">OENO One — Articoli recenti (Vol. 60 No. 2-3, 2026): dealcolati, peronospora, Shiraz, endofiti</a></li>
+<li><a href="https://www.mixerplanet.com/" target="_blank" rel="noopener">MixerPlanet — Vendemmia 2026: come Cavit legge il Trentino ettaro per ettaro</a></li>
+<li><a href="https://www.beverfood.com/" target="_blank" rel="noopener">Beverfood — Simei 2026 torna a Fiera Milano dal 17 al 20 novembre</a></li>
+</ul></div><div class="pager"><span></span><a href="2026-10-01.html">Più vecchio (1 ottobre 2026) →</a></div></main><footer><div class="in"><div class="views">Visualizzazioni totali: <span id="view-count">…</span></div><script>(function () {var el = document.getElementById("view-count");if (!el) return;var url = "https://abacus.jasoncameron.dev/hit/wine-insights-site/total";var done = false;function show(n, note) { el.textContent = Number(n).toLocaleString("it-IT") + (note ? " " + note : ""); }function fallback() { if (done) return; done = true; var loc = 0; try { loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10); } catch (e) {} show(loc, "(questo dispositivo)"); }try { var loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10) + 1; localStorage.setItem("wiLocalViews", String(loc)); } catch (e) {}try { var xhr = new XMLHttpRequest(); xhr.open("GET", url); xhr.responseType = "json";xhr.onload = function () { if (xhr.status === 200 && xhr.response && typeof xhr.response.value === "number") { done = true; show(xhr.response.value); } else { fallback(); } };xhr.onerror = fallback; xhr.send(); } catch (e) { fallback(); }try { fetch("https://get.geojs.io/v1/ip/geo.json").then(function (r) { return r.json(); }).then(function (g) {var cc = (g.country_code || "").toUpperCase();var list = ["IT","US","FR","DE","GB","CH","ES","PT","AT","BE","NL","LU","BR","AR","CL","MX","CA","AU","NZ","ZA","CN","JP","IN","KR"];var key = (cc && list.indexOf(cc) >= 0) ? "geo-" + cc : "geo-ALTRO";var x = new XMLHttpRequest(); x.open("GET", "https://abacus.jasoncameron.dev/hit/wine-insights-geo/" + key); x.send();}).catch(function () {}); } catch (e) {}})();</script>Made by <strong>Alberto Cugnetto PhD</strong> with <strong>AutoClaw</strong> · <a href="https://www.linkedin.com/in/alberto-cugnetto-ph-d-03aa3418/" target="_blank" rel="noopener">Profilo LinkedIn</a> · Piattaforma realizzata nel contesto del progetto <a href="https://growine.it/" target="_blank" rel="noopener"><strong>GROWINE</strong></a> <img src="../assets/logo-growine-white.png" alt="GROWINE — Wine Consulting" style="height:13px;vertical-align:middle;border:0"><br>Contenuti generati automaticamente da ricerche web (Wine Insights, OpenClaw). Verificare i dati numerici sulle fonti originali prima di usarli in decisioni commerciali o pubblicazioni.<br>Pagina rigenerata il 7 ottobre 2026 alle ore 09:07 (Europe/Rome).</div></footer></body></html>
