@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Insights — Report del 1 novembre 2026</title>
+<meta name="description" content="Report Wine Insights del 1 novembre 2026: statistiche, notizie, ricerca e innovazioni sul vino.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#FAF6F4;color:#2E2222;line-height:1.6}
+a{color:#722F37}
+.topbar{position:sticky;top:0;background:rgba(250,246,244,.96);backdrop-filter:blur(6px);border-bottom:1px solid #E8DBD9;z-index:10}
+.topbar .in{max-width:1060px;margin:0 auto;display:flex;align-items:center;gap:22px;padding:13px 24px;flex-wrap:wrap}
+.brand{font-weight:800;color:#722F37;font-size:18px;text-decoration:none;letter-spacing:.2px}
+.brand span{color:#2E2222;font-weight:600}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#5C4646;text-decoration:none;font-size:14px}
+nav a:hover{color:#722F37}
+.hero{background:linear-gradient(135deg,#4A1F24,#722F37);color:#fff;padding:60px 24px}
+.hero .in{max-width:1060px;margin:0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:.4px}
+.hero h1{font-size:44px;margin:18px 0 10px;line-height:1.15}
+.byline{color:#E8CDD0;font-size:16.5px;margin-top:4px}
+.byline .author{color:#fff;font-weight:600}
+.linkedin{margin-top:10px;font-size:14.5px}
+.linkedin a{color:#F3E3E4;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 16px;display:inline-block}
+.linkedin a:hover{background:rgba(255,255,255,.12)}
+.growine{margin-top:12px;font-size:15px;color:#E8CDD0;display:flex;align-items:center;gap:10px}
+.growine-logo{height:26px;width:auto;display:block}
+.growine-link{display:inline-flex;align-items:center}
+.growine-link:hover{opacity:.82}
+.notice{background:rgba(255,214,102,.16);border:1px solid rgba(255,214,102,.55);color:#FFE9B0;padding:9px 16px;border-radius:10px;display:inline-block;margin-top:12px;font-size:14px}
+.hero p{color:#F3E3E4;font-size:18px;max-width:680px}
+.hero .meta{color:#E8CDD0;font-size:14.5px;margin-top:14px}
+.hero-logo{display:block;width:430px;max-width:100%;height:auto;margin:14px 0 4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+main{max-width:1060px;margin:0 auto;padding:40px 24px 64px}
+section{margin-bottom:56px;scroll-margin-top:76px}
+.overline{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+h2.sec{font-size:30px;color:#3A2626;margin:6px 0 18px}
+.card{background:#fff;border:1px solid #E8DBD9;border-radius:16px;padding:28px}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:#F3E7E8;color:#4A1F24;text-align:left;padding:10px 12px;border-bottom:2px solid #B08A8E;font-size:12.5px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:9px 12px;border-bottom:1px solid #EFE5E3;vertical-align:top}
+tbody tr:hover td{background:#FBF4F2}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.rcard{background:#fff;border:1px solid #E8DBD9;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.rcard .date{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#B08A8E;font-weight:700}
+.rcard ul{margin-left:18px;font-size:14px;color:#5C4646}
+.rcard li{margin:4px 0}
+.rcard a.more{font-size:14px;font-weight:700;text-decoration:none;color:#722F37;margin-top:auto}
+.rcard a.more:hover{text-decoration:underline}
+.howto{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+.howto img{width:100%;border:1px solid #E8DBD9;border-radius:14px;background:#fff}
+.howto ul{margin:12px 0 0 20px;font-size:15px;color:#5C4646}
+.howto li{margin:6px 0}
+.note{font-size:13.5px;color:#8A6F6F;margin-top:12px}
+article h1{font-size:34px;color:#3A2626;margin:8px 0 6px}
+article h2{font-size:24px;color:#722F37;border-left:4px solid #722F37;padding-left:12px;margin:34px 0 14px}
+article h3{font-size:19px;margin:22px 0 10px;color:#3A2626}
+article p{margin:10px 0}
+article ul{margin:10px 0 10px 22px}
+article li{margin:6px 0}
+article blockquote{background:#F3E7E8;border-left:4px solid #B08A8E;padding:12px 16px;border-radius:0 10px 10px 0;color:#5C4646;margin:14px 0;font-size:15px}
+article hr{border:none;border-top:1px solid #E8DBD9;margin:26px 0}
+article code{background:#F3E7E8;border-radius:6px;padding:1px 6px;font-size:.9em}
+article pre{background:#3A2626;color:#F3E3E4;border-radius:12px;padding:16px;overflow-x:auto;margin:14px 0}
+article pre code{background:none;color:inherit}
+.meta{color:#8A6F6F;font-size:13.5px}
+.crumb{font-size:14px;margin-bottom:18px}
+.crumb a{text-decoration:none;font-weight:700}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:36px;flex-wrap:wrap}
+.pager a{font-weight:700;text-decoration:none;color:#722F37;font-size:14.5px}
+.views{font-size:14px;font-weight:600;color:#4A1F24;background:#F3E7E8;border:1px solid #E4D2D3;border-radius:10px;padding:8px 14px;display:inline-block;margin-bottom:12px}
+footer{border-top:1px solid #E8DBD9;padding:26px 24px;color:#8A6F6F;font-size:13.5px}
+footer .in{max-width:1060px;margin:0 auto}
+.archbox{background:#fff;border:1px solid #E8DBD9;border-radius:14px;margin-top:14px;overflow:hidden}
+.archbox summary{cursor:pointer;padding:16px 20px;font-weight:700;color:#722F37;font-size:15.5px;list-style:none;display:flex;align-items:center;gap:9px;user-select:none}
+.archbox summary::-webkit-details-marker{display:none}
+.archbox summary:before{content:"▸";font-size:12px;color:#B08A8E;transition:transform .15s;display:inline-block}
+.archbox[open] summary:before{transform:rotate(90deg)}
+.archbox .archbody{border-top:1px dashed #E8DBD9;padding:6px 20px 18px}
+.month{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#B08A8E;font-weight:700;margin:14px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-block;background:#F3E7E8;border:1px solid #E4D2D3;color:#4A1F24;border-radius:999px;padding:5px 13px;font-size:13.5px;text-decoration:none}
+.chip:hover{background:#EAD5D6;text-decoration:none}
+table.compact{font-size:12.5px}
+table.compact th,table.compact td{padding:6px 9px}
+.count-note{font-size:13px;color:#8A6F6F;margin:12px 0 0}
+@media(max-width:820px){.howto{grid-template-columns:1fr}.hero h1{font-size:34px}}
+</style>
+</head>
+<body><div class="topbar"><div class="in"><a class="brand" href="../index.html">Wine <span>Insights</span></a><nav><a href="../index.html#analisi">Ultime analisi</a><a href="../index.html#indicatori">Indicatori</a><a href="../index.html#archivio">Archivio</a><a href="../index.html#archivio-storico">Archivio storico</a><a href="../index.html#come-funziona">Come funziona</a></nav></div></div><main><div class="crumb"><a href="../index.html">← Torna alla dashboard</a></div><div class="card article"><div class="meta">Report generato automaticamente il 1 novembre 2026 — dati da ricerche web, fonti originali in calce.</div><h1>Wine Insights — 1 novembre 2026</h1><blockquote>Rotazione geografica di oggi: <strong>USA</strong> (giorno 1 mod 10 → indice 1). Seconda area approfondita: <strong>Canada</strong>, scelta in base alle notizie (il boicottaggio delle province canadesi è la prima causa del crollo dell'export americano). <strong>Limiti di questa sessione</strong>: domenica, flusso di notizie ridotto; OENO One e IVES Technical Reviews non hanno pubblicato nuovi articoli dopo metà ottobre, quindi l'area ricerca si basa su analisi di settore e non su letteratura nuova; il report DTC di Enolytics è caricato via JavaScript e non ha restituito dati, perciò non è citato; nessuna nuova stima OIV (la prima del 2026 è attesa a novembre).</blockquote>
+<h2 id="sintesi-esecutiva">Sintesi esecutiva</h2>
+<ul>
+<li><strong>USA (1ª area): il mercato canadese è passato da primo a terzo in un anno</strong> — nel 2025 l'export di vino americano verso il Canada è sceso del 78%, da 460 a 103 milioni di dollari (dati USDA), e la quota canadese sull'export USA è crollata dal 36% al 12%.</li>
+<li><strong>USA (1ª area): il conto cumulato supera il mezzo miliardo di dollari</strong> — la stima del Wine Institute indica circa 522 milioni di dollari di mancato export tra marzo 2025 e giugno 2026; il crollo canadese spiega da solo l'81% della perdita mondiale di valore dell'export americano, da 1,27 a 0,83 miliardi.</li>
+<li><strong>Canada (2ª area): il boicottaggio ha spostato la domanda, non solo sospeso le forniture</strong> — nelle liquor store della British Columbia i vini locali sono cresciuti del 157% su base annua, e il Wine Institute avverte che «gli scaffali non restano vuoti in attesa che il vino americano torni».</li>
+<li><strong>USA: la politica prova a rispondere, tra farm bill ed etichettatura</strong> — il disegno di legge agricolo in riconciliazione prevede più fondi per le malattie del vigneto, incluso il red blotch, mentre è fallita la proposta californiana di riservare l'etichetta «American» alle uve di origine nazionale.</li>
+<li><strong>Cantina: l'AI avanza, ma i dati restano il collo di bottiglia</strong> — l'adozione di sensori, selezionatrici ottiche, droni e sistemi di monitoraggio cresce nelle cantine statunitensi, mentre le analisi di settore ricordano che nessun modello compensa dati commerciali incompleti.</li>
+</ul>
+<h2 id="statistiche-dati">Statistiche &amp; dati</h2>
+<div class="tablewrap"><table><thead><tr><th>Indicatore</th><th>Valore</th><th>Variazione / Nota</th><th>Fonte</th></tr></thead><tbody><tr><td>Export vino USA verso il Canada, 2025</td><td>103 mln $</td><td>Da 460 mln $ nel 2024: -78%</td><td><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">USDA, via Press Democrat</a></td></tr><tr><td>Perdita cumulata export USA-Canada, mar 2025-giu 2026</td><td>~522 mln $</td><td>Confronto con gli stessi periodi del 2024</td><td><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Wine Institute, via Press Democrat</a></td></tr><tr><td>Quota Canada sull'export di vino USA, 2024 → 2025</td><td>36% → 12%</td><td>Da primo a terzo mercato, dietro UE e Regno Unito</td><td><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Wine Institute</a></td></tr><tr><td>Export mondiale vino USA, 2024 → 2025</td><td>1,27 → 0,83 mld $</td><td>Il crollo canadese pesa per l'81% della perdita</td><td><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Wine Institute</a></td></tr><tr><td>Volume export vino USA, 2016 → 2025</td><td>409 → 202 mln litri</td><td>Dimezzato in nove anni</td><td><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Wine Institute</a></td></tr><tr><td>Vendite totali di vino negli USA, 2025</td><td>115 mld $</td><td>Mercato interno, per confronto con l'export</td><td><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Wine Institute</a></td></tr><tr><td>Vendemmia UE 2026 (vini e mosti)</td><td>137,4 mln hl</td><td>-1,2% sul 2025; Italia 41,1 mln hl (-7,2%)</td><td><a href="https://agronotizie.imagelinenetwork.com/agricoltura-economia-politica/2026/10/16/vendemmia-in-calo-nella-ue-12/89838" target="_blank" rel="noopener">AgriNotizie / Commissione UE</a></td></tr></tbody></table></div>
+<h2 id="notizie">Notizie</h2>
+<ul>
+<li><strong>USA (1ª area): il Canada è il buco più profondo nell'export americano</strong> — secondo i dati USDA ripresi dal Press Democrat, nel 2025 il vino statunitense esportato in Canada è sceso a 103 milioni di dollari da 460, con un -78% che ha fatto scendere il Paese da primo a terzo mercato (dietro Unione Europea e Regno Unito). Il Wine Institute stima un mancato export cumulato di circa 522 milioni di dollari tra marzo 2025 e giugno 2026 e ricorda un punto tecnico che cambia la lettura dei dati: la maggior parte delle province ha smesso di acquistare e distribuire bevande alcoliche americane, quindi il calo non misura solo un cambio di preferenza dei consumatori ma un accesso negato agli scaffali. (<a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Press Democrat</a>)</li>
+<li><strong>USA (1ª area): la perdita canadese spiega quasi tutto il crollo dell'export</strong> — il valore dell'export mondiale di vino USA è passato da 1,27 miliardi di dollari nel 2024 a 830 milioni nel 2025: l'81% della caduta è attribuibile al solo Canada. Guardando più indietro, il valore era di circa 1,6 miliardi nel 2016 e i volumi sono scesi da 409 a 202 milioni di litri: il problema non è iniziato con i dazi, ma i dazi lo hanno accelerato. Per dare la scala: le vendite interne statunitensi valgono 115 miliardi di dollari, quindi l'export resta una frazione del mercato — ma è la frazione che sostiene i margini delle cantine di fascia alta. (<a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Press Democrat</a>)</li>
+<li><strong>CANADA (2ª area): chi ha occupato quello spazio non lo restituisce per cortesia</strong> — il Calgary Herald riporta che nelle liquor store della British Columbia i vini locali sono cresciuti del 157% rispetto all'anno precedente, mentre i rivenditori dell'Alberta — l'unica provincia che ancora consente la vendita di vino californiano — segnalano domanda in calo. Il Wine Institute mette in guardia dal rischio strutturale: i competitor internazionali stanno costruendo relazioni con distributori e consumatori canadesi, e «gli scaffali non restano vuoti in attesa che il vino americano torni». Anche a disputa chiusa, ricostruire la distribuzione richiederà anni. (<a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Press Democrat</a>)</li>
+<li><strong>USA: il farm bill ridisegna il sostegno, l'etichettatura resta un nodo</strong> — il senatore Adam Schiff ha indicato due priorità: più fondi per la ricerca sulle malattie del vigneto, incluso il red blotch, e un sostegno alle colture specializzate più adatto a una filiera come quella del vino; le versioni di Camera e Senato attendono la riconciliazione. È invece fallita la proposta californiana che riservava l'etichetta «American» ai vini da uve coltivate negli Stati Uniti, bocciata dalle divisioni interne al settore: un tema che resta aperto a livello federale. (<a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Press Democrat</a>)</li>
+<li><strong>UE: la vendemmia 2026 si chiude a 137,4 milioni di ettolitri (-1,2%)</strong> — la stima della Commissione europea conferma un'annata in leggero calo per vini e mosti, con l'Italia primo produttore a 41,1 milioni di ettolitri (-7,2%) dopo la siccità estiva. Il dato va letto insieme alle giacenze italiane ancora sopra i 41 milioni di ettolitri: la produzione scende, ma l'offerta disponibile non si è ancora normalizzata. (<a href="https://agronotizie.imagelinenetwork.com/agricoltura-economia-politica/2026/10/16/vendemmia-in-calo-nella-ue-12/89838" target="_blank" rel="noopener">AgriNotizie</a>)</li>
+</ul>
+<h2 id="ricerca-innovazione">Ricerca &amp; Innovazione</h2>
+<ul>
+<li><strong>AI in cantina: adozione in crescita ma molto disomogenea</strong> — l'indagine di Wine Business Monthly documenta la diffusione di sensori di vigneto, selezionatrici ottiche, analisi da drone, sistemi di inventario, monitoraggio delle fermentazioni e robotica di vigneto nelle aziende statunitensi; il quadro che emerge non è un'adozione uniforme ma una polarizzazione tra chi ha già integrati i dati nei processi e chi li usa come esperimento isolato. La variabile discriminante resta la dimensione aziendale e la presenza di personale in grado di leggere i dati. (<a href="https://www.winebusiness.com/wbm/article/322481" target="_blank" rel="noopener">Wine Business Monthly</a>)</li>
+<li><strong>Perché nessun modello salva una cantina con dati commerciali sporchi</strong> — l'analisi di Wine Industry Advisor sui processi di vendita mette in fila una verità scomoda per chi insegue l'AI: se i dati su clienti, ordini e giacenze sono incompleti o duplicati, l'automazione amplifica gli errori invece di correggerli. La priorità operativa diventa la qualità del dato — anagrafiche univoche, storico degli ordini coerente, tracciabilità delle giacenze — prima della scelta del modello. (<a href="https://wineindustryadvisor.com/" target="_blank" rel="noopener">Wine Industry Advisor</a>)</li>
+<li><strong>La concorrenza delle importazioni, letta con i numeri invece che con l'istinto</strong> — l'analisi di Winescape ripresa da Wine Industry Advisor affronta la domanda che attraversa il dibattito statunitense: quanta parte del calo delle vendite interne è dovuta ai vini importati e quanta a un cambio strutturale dei consumi. È un esercizio utile anche per i produttori europei, perché definisce con che tipo di concorrenza — di prezzo, di assortimento o di occasioni di consumo — avranno a che fare nei prossimi anni. (<a href="https://wineindustryadvisor.com/" target="_blank" rel="noopener">Wine Industry Advisor</a>)</li>
+</ul>
+<h2 id="conoscenza-enologica-del-giorno">Conoscenza enologica del giorno</h2>
+<p><strong>Il red blotch: la malattia che si vede sulle foglie ma si paga nel bicchiere</strong></p>
+<p>Il grapevine red blotch virus è un caso istruttivo perché i sintomi ingannano. Sulle foglie compaiono chiazze rosse — da qui il nome — che a fine estate possono essere confuse con una carenza di magnesio o con il normale ingiallimento autunnale; la pianta, però, non muore e continua a produrre. Il danno vero si manifesta nell'uva: maturazione ritardata, zuccheri più bassi, acidità più alta e antociani ridotti, cioè un vino che nasce più magro e meno colorato proprio negli anni in cui il mercato chiede concentrazione. La trasmissione avviene per innesto con materiale infetto e attraverso alcuni insetti vettori, il che spiega perché la difesa più efficace non sia il trattamento ma la prevenzione: materiale di propagazione certificato, monitoraggio dei focolai e estirpazione delle piante positive. È una malattia «silenziosa» nella contabilità, perché non distrugge il raccolto ma ne riduce il valore, e per questo è tra le voci che il farm bill statunitense vorrebbe finanziare con più ricerca. Per un viticoltore europeo il promemoria è lo stesso: la qualità del materiale di impianto è una decisione economica, non solo sanitaria. (<a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Press Democrat — farm bill e red blotch</a>)</p>
+<h2 id="fonti">Fonti</h2>
+<ul>
+<li><a href="https://www.pressdemocrat.com/2026/10/19/schiff-sonoma-napa-canadas-wine-boycott-impact" target="_blank" rel="noopener">Press Democrat — Schiff: Canadians may stay sour on California wine even after trade dispute ends (19/10/2026)</a></li>
+<li><a href="https://www.latimes.com/business/story/2026-08-26/california-wine-exposed-again-as-u-s-canada-trade-fight-flares" target="_blank" rel="noopener">LA Times — California wine exposed again as U.S.-Canada trade fight flares (26/08/2026)</a></li>
+<li><a href="https://agronotizie.imagelinenetwork.com/agricoltura-economia-politica/2026/10/16/vendemmia-in-calo-nella-ue-12/89838" target="_blank" rel="noopener">AgriNotizie — Vendemmia in calo nella Ue (-1,2%) (16/10/2026)</a></li>
+<li><a href="https://www.winebusiness.com/wbm/article/322481" target="_blank" rel="noopener">Wine Business Monthly — AI Adoption Grows Across the U.S. Wine Industry (01/09/2026)</a></li>
+<li><a href="https://wineindustryadvisor.com/" target="_blank" rel="noopener">Wine Industry Advisor — homepage e analisi di settore (ottobre 2026)</a></li>
+<li><a href="https://winenews.it/it/" target="_blank" rel="noopener">WineNews — homepage e rassegna (31/10-01/11/2026)</a></li>
+</ul></div><div class="pager"><span></span><a href="2026-10-31.html">Più vecchio (31 ottobre 2026) →</a></div></main><footer><div class="in"><div class="views">Visualizzazioni totali: <span id="view-count">…</span></div><script>(function () {var el = document.getElementById("view-count");if (!el) return;var url = "https://abacus.jasoncameron.dev/hit/wine-insights-site/total";var done = false;function show(n, note) { el.textContent = Number(n).toLocaleString("it-IT") + (note ? " " + note : ""); }function fallback() { if (done) return; done = true; var loc = 0; try { loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10); } catch (e) {} show(loc, "(questo dispositivo)"); }try { var loc = parseInt(localStorage.getItem("wiLocalViews") || "0", 10) + 1; localStorage.setItem("wiLocalViews", String(loc)); } catch (e) {}try { var xhr = new XMLHttpRequest(); xhr.open("GET", url); xhr.responseType = "json";xhr.onload = function () { if (xhr.status === 200 && xhr.response && typeof xhr.response.value === "number") { done = true; show(xhr.response.value); } else { fallback(); } };xhr.onerror = fallback; xhr.send(); } catch (e) { fallback(); }try { fetch("https://get.geojs.io/v1/ip/geo.json").then(function (r) { return r.json(); }).then(function (g) {var cc = (g.country_code || "").toUpperCase();var list = ["IT","US","FR","DE","GB","CH","ES","PT","AT","BE","NL","LU","BR","AR","CL","MX","CA","AU","NZ","ZA","CN","JP","IN","KR"];var key = (cc && list.indexOf(cc) >= 0) ? "geo-" + cc : "geo-ALTRO";var x = new XMLHttpRequest(); x.open("GET", "https://abacus.jasoncameron.dev/hit/wine-insights-geo/" + key); x.send();}).catch(function () {}); } catch (e) {}})();</script>Made by <strong>Alberto Cugnetto PhD</strong> with <strong>AutoClaw</strong> · <a href="https://www.linkedin.com/in/alberto-cugnetto-ph-d-03aa3418/" target="_blank" rel="noopener">Profilo LinkedIn</a> · Piattaforma realizzata nel contesto del progetto <a href="https://growine.it/" target="_blank" rel="noopener"><strong>GROWINE</strong></a> <img src="../assets/logo-growine-white.png" alt="GROWINE — Wine Consulting" style="height:13px;vertical-align:middle;border:0"><br>Contenuti generati automaticamente da ricerche web (Wine Insights, OpenClaw). Verificare i dati numerici sulle fonti originali prima di usarli in decisioni commerciali o pubblicazioni.<br>Pagina rigenerata il 1 novembre 2026 alle ore 10:27 (Europe/Rome).</div></footer></body></html>
